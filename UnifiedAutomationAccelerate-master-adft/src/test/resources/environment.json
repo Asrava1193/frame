@@ -1,0 +1,32 @@
+{
+	"AD1": {
+		"CSRD": "https://toms-pad-conf-1.vip.a.itdev.uk.pri.o2.com/index.jsp",
+		"ECARE": "",
+		"ECOMM": "https://ecommerce-pad-conf-1.vip.a.itdev.uk.pri.o2.com/shop/",
+		"EPOS": "https://epos-pad-conf-1.vip.a.itdev.uk.pri.o2.com/shop/phones"
+	},
+	"AD5": {
+		"CSRD": "https://toms-pad-test-2.vip.a.itdev.uk.pri.o2.com",
+		"ECARE": "",
+		"ECOMM": "https://ecommerce-pad-test-2.vip.a.itdev.uk.pri.o2.com/shop/",
+		"EPOS": "https://epos-pad-test-2.vip.a.itdev.uk.pri.o2.com/shop/phones"
+	},
+	"AD4": {
+		"CSRD": "https://toms-pad-test-1.vip.a.itdev.uk.pri.o2.com",
+		"ECARE": "",
+		"ECOMM": "https://ecommerce-pad-test-1.vip.a.itdev.uk.pri.o2.com/shop/",
+		"EPOS": "https://epos-pad-test-1.vip.a.itdev.uk.pri.o2.com/shop/phones"
+	},
+	"AD2": {
+		"CSRD": "https://toms-pad-conf-2.vip.a.itdev.uk.pri.o2.com/index.jsp",
+		"ECARE": "",
+		"ECOMM": "https://ecommerce-pad-conf-2.vip.a.itdev.uk.pri.o2.com/shop/",
+		"EPOS": "https://epos-pad-conf-2.vip.a.itdev.uk.pri.o2.com/shop/phones"
+	},
+	"AD6": {
+		"CSRD": "https://toms-pad-test-3.vip.a.itdev.uk.pri.o2.com",
+		"ECARE": "",
+		"ECOMM": "https://ecommerce-pad-test-3.vip.a.itdev.uk.pri.o2.com/shop/",
+		"EPOS": "https://epos-pad-test-3.vip.a.itdev.uk.pri.o2.com/shop/phones"
+	}
+}

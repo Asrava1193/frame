@@ -1,0 +1,627 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>ADFT End to End - EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+			 th.perfColor { 
+				 color: darkorchid; 
+			 } 
+
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 ADFT End to End - EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;17-Nov-2023&nbsp;12:11:55&nbsp;PM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplicationEpos')">&nbsp;+ invokeApplicationEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplicationEpos1'> 
+					 <td>1</td> 
+					 <td class='justified'>Url is launched successfully</td> 
+					 <td class='justified'>https://epos-pad-conf-1.vip.a.itdev.uk.pri.o2.com/shop/phones</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:12:13 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-12-13_PM_Url_is_launched_successfully.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectDeviceEpos')">&nbsp;+ selectDeviceEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEpos1'> 
+					 <td>2</td> 
+					 <td class='justified'>agentRoleTxt</td> 
+					 <td class='justified'>Franchise Sales Manager is entered successfully in the text box  - agentRoleTxt</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:12:13 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEpos2'> 
+					 <td>3</td> 
+					 <td class='justified'>submitButton</td> 
+					 <td class='justified'>submitButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:12:21 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-12-21_PM_submitButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEpos3'> 
+					 <td>4</td> 
+					 <td class='justified'>shopLink</td> 
+					 <td class='justified'>shopLinkis in a visible state and moved to the element</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:12:22 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-12-21_PM_shopLink.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEpos4'> 
+					 <td>5</td> 
+					 <td class='justified'>deviceType</td> 
+					 <td class='justified'>deviceType is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:12:22 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-12-22_PM_deviceType.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEpos5'> 
+					 <td>6</td> 
+					 <td class='justified'>deviceSearch</td> 
+					 <td class='justified'>Pencil USB is entered successfully in the text box  - deviceSearch</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:12:33 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEpos6'> 
+					 <td>7</td> 
+					 <td class='justified'>searchResults</td> 
+					 <td class='justified'>searchResults is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:12:44 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-12-44_PM_searchResults.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectColorCapacityEpos')">&nbsp;+ selectColorCapacityEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectColorCapacityEpos1'> 
+					 <td>8</td> 
+					 <td class='justified'>homeDeliveryOption</td> 
+					 <td class='justified'>homeDeliveryOption is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:05 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-05_PM_homeDeliveryOption.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectColorCapacityEpos2'> 
+					 <td>9</td> 
+					 <td class='justified'>Stock check</td> 
+					 <td class='justified'>Device is in stock</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:10 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-10_PM_Stock_check.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1paymentPlanSelectionEpos')">&nbsp;+ paymentPlanSelectionEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEpos1'> 
+					 <td>10</td> 
+					 <td class='justified'>Expected Device price is £79.00</td> 
+					 <td class='justified'>Actual Device price is correct £79.00</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:21 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-21_PM_Expected_Device_price_is_£79.00.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterCustomerDetailsEpos')">&nbsp;+ enterCustomerDetailsEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos1'> 
+					 <td>11</td> 
+					 <td class='justified'>addToBasketAccessories</td> 
+					 <td class='justified'>addToBasketAccessories is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:21 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-21_PM_addToBasketAccessories.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos2'> 
+					 <td>12</td> 
+					 <td class='justified'>upfrontOption</td> 
+					 <td class='justified'>upfrontOption is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:27 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-26_PM_upfrontOption.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos3'> 
+					 <td>13</td> 
+					 <td class='justified'>discountReason</td> 
+					 <td class='justified'>discountReason is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:32 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-32_PM_discountReason.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos4'> 
+					 <td>14</td> 
+					 <td class='justified'>discountReason</td> 
+					 <td class='justified'>discountReason is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:37 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-37_PM_discountReason.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos5'> 
+					 <td>15</td> 
+					 <td class='justified'>discountJustification</td> 
+					 <td class='justified'>Test is entered successfully in the text box  - discountJustification</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:41 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-41_PM_discountJustification.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos6'> 
+					 <td>16</td> 
+					 <td class='justified'>discountCode</td> 
+					 <td class='justified'>1111111111111 is entered successfully in the text box  - discountCode</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:13:44 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-13-44_PM_discountCode.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos7'> 
+					 <td>17</td> 
+					 <td class='justified'>discountJustification</td> 
+					 <td class='justified'>discountJustification is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:13:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos8'> 
+					 <td>18</td> 
+					 <td class='justified'>applyDiscount</td> 
+					 <td class='justified'>applyDiscount is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:01 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-01_PM_applyDiscount.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos9'> 
+					 <td>19</td> 
+					 <td class='justified'>Upfront discount </td> 
+					 <td class='justified'>Minimum Upfront discount is 0.01</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:11 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-11_PM_Upfront_discount_.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos10'> 
+					 <td>20</td> 
+					 <td class='justified'>changeDiscount</td> 
+					 <td class='justified'>changeDiscount is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:12 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-11_PM_changeDiscount.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos11'> 
+					 <td>21</td> 
+					 <td class='justified'>discountInput</td> 
+					 <td class='justified'>discountInput is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:15 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-15_PM_discountInput.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos12'> 
+					 <td>22</td> 
+					 <td class='justified'>discountJustification</td> 
+					 <td class='justified'>discountJustification is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:14:26 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos13'> 
+					 <td>23</td> 
+					 <td class='justified'>Upfront discount </td> 
+					 <td class='justified'>79.01 is not accepted as Upfront discount</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:26 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-26_PM_Upfront_discount_.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos14'> 
+					 <td>24</td> 
+					 <td class='justified'>discountInput</td> 
+					 <td class='justified'>discountInput is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:26 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-26_PM_discountInput.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos15'> 
+					 <td>25</td> 
+					 <td class='justified'>discountJustification</td> 
+					 <td class='justified'>discountJustification is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:14:38 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos16'> 
+					 <td>26</td> 
+					 <td class='justified'>applyDiscount</td> 
+					 <td class='justified'>applyDiscount is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:41 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-41_PM_applyDiscount.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos17'> 
+					 <td>27</td> 
+					 <td class='justified'>Expected Upfront discount is £79.00 off</td> 
+					 <td class='justified'>Upfront discount applied is correct £79.00 off</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:14:52 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-14-51_PM_Expected_Upfront_discount_is_£79.00_off.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos18'> 
+					 <td>28</td> 
+					 <td class='justified'>checkOutBtn</td> 
+					 <td class='justified'>checkOutBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:02 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-02_PM_checkOutBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos19'> 
+					 <td>29</td> 
+					 <td class='justified'>customerCreateEmail</td> 
+					 <td class='justified'>jaZ93Y8SRnWt@yopmail.com is entered successfully in the text box  - customerCreateEmail</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:07 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-07_PM_customerCreateEmail.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos20'> 
+					 <td>30</td> 
+					 <td class='justified'>loginEmail</td> 
+					 <td class='justified'>loginEmail is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:08 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-07_PM_loginEmail.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos21'> 
+					 <td>31</td> 
+					 <td class='justified'>customerPreferredTitle</td> 
+					 <td class='justified'>Mr is entered successfully in the text box  - customerPreferredTitle</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:15:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos22'> 
+					 <td>32</td> 
+					 <td class='justified'>customerFirstName</td> 
+					 <td class='justified'>JohnimmyM is entered successfully in the text box  - customerFirstName</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:15:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos23'> 
+					 <td>33</td> 
+					 <td class='justified'>customerLastName</td> 
+					 <td class='justified'>Mcgill is entered successfully in the text box  - customerLastName</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:15:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos24'> 
+					 <td>34</td> 
+					 <td class='justified'>customerDOB</td> 
+					 <td class='justified'>11/10/1992 is entered successfully in the text box  - customerDOB</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>17-Nov-2023 12:15:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos25'> 
+					 <td>35</td> 
+					 <td class='justified'>customerTelephoneNum</td> 
+					 <td class='justified'>07688887766 is entered successfully in the text box  - customerTelephoneNum</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:16 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-16_PM_customerTelephoneNum.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEpos26'> 
+					 <td>36</td> 
+					 <td class='justified'>customerPostalCode</td> 
+					 <td class='justified'>YO17JF is entered successfully in the text box  - customerPostalCode</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:17 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-17_PM_customerPostalCode.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterAddressDetailsEpos')">&nbsp;+ enterAddressDetailsEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEpos1'> 
+					 <td>37</td> 
+					 <td class='justified'>customerFindButton</td> 
+					 <td class='justified'>customerFindButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:17 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-17_PM_customerFindButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEpos2'> 
+					 <td>38</td> 
+					 <td class='justified'>addressDropdown</td> 
+					 <td class='justified'>addressDropdown is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:27 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-27_PM_addressDropdown.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEpos3'> 
+					 <td>39</td> 
+					 <td class='justified'>addressDropdownOptions</td> 
+					 <td class='justified'>addressDropdownOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:33 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-32_PM_addressDropdownOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEpos4'> 
+					 <td>40</td> 
+					 <td class='justified'>addressCheckbox</td> 
+					 <td class='justified'>addressCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:33 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-33_PM_addressCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEpos5'> 
+					 <td>41</td> 
+					 <td class='justified'>addressConfirm</td> 
+					 <td class='justified'>addressConfirm is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:33 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-33_PM_addressConfirm.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectDeliveryOptionEpos')">&nbsp;+ selectDeliveryOptionEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeliveryOptionEpos1'> 
+					 <td>42</td> 
+					 <td class='justified'>homeDelivery</td> 
+					 <td class='justified'>homeDelivery is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:38 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-38_PM_homeDelivery.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeliveryOptionEpos2'> 
+					 <td>43</td> 
+					 <td class='justified'>confirmDeliveryOption</td> 
+					 <td class='justified'>confirmDeliveryOption is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:49 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-49_PM_confirmDeliveryOption.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeliveryOptionEpos3'> 
+					 <td>44</td> 
+					 <td class='justified'>continueButtton</td> 
+					 <td class='justified'>continueButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:15:59 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-15-59_PM_continueButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeliveryOptionEpos4'> 
+					 <td>45</td> 
+					 <td class='justified'>continueButtton</td> 
+					 <td class='justified'>continueButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:16:15 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-16-14_PM_continueButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1eligibiltyCheckEpos')">&nbsp;+ eligibiltyCheckEpos</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterBankDetailsEpos')">&nbsp;+ enterBankDetailsEpos</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1checkoutOrderEpos')">&nbsp;+ checkoutOrderEpos</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1checkoutOrderEpos1'> 
+					 <td>46</td> 
+					 <td class='justified'>skipButton</td> 
+					 <td class='justified'>skipButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:16:20 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-16-20_PM_skipButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1checkoutOrderEpos2'> 
+					 <td>47</td> 
+					 <td class='justified'>orderConfirmEpos</td> 
+					 <td class='justified'>orderConfirmEpos is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>17-Nov-2023 12:16:25 PM</small></td> 
+					 <td><img src='..\Screenshots\EposADFTScenario_Adft_Epos_Accessories_TC01_Instance1_17-Nov-2023_12-16-25_PM_orderConfirmEpos.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1eposWarrantyAndDeviceTier')">&nbsp;+ eposWarrantyAndDeviceTier</td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 4 minute(s), 31 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 38</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 2</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>

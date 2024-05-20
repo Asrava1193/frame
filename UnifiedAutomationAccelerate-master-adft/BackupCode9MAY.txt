@@ -1,0 +1,369 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.cognizant.craft.ScriptHelper;
+import com.cognizant.framework.VMOReusableLibrary;
+
+public class case_tc23_customerDetails extends MasterPage
+{
+	protected case_tc23_customerDetails(ScriptHelper scriptHelper) 
+	{
+		super(scriptHelper);
+	}
+
+
+
+	//ecare locators
+	//personal details
+	private static final By myO2DDinEcarePage = By.xpath("//button[@class='main-dropdown__name']");
+	private static final By manageDetailsUnderMyo2DD = By.xpath("//a[contains(text(),' Manage your details ')]");
+	private static final By personalDetailsEditBtn = By.xpath("(//span[contains(text(),'Edit')])[1]");
+	private static final By firstNameInEditPersonalDetPopup = By.xpath("//input[@id='mat-input-10']");
+	private static final By uploadDocBtn = By.xpath("//span[contains(text(),'Upload document')]");
+	private static final By saveBtnInPersonalDetPopup = By.xpath("//span[contains(text(),' Save')]");
+	private static final By submitChangsBtnInPopup = By.xpath("//span[contains(text(),' Submit changes ')]");
+	
+	//address
+	private static final By addressEditBtn = By.xpath("(//span[contains(text(),'Edit')])[2]");
+	private static final By houseNumField = By.xpath("//input[@formcontrolname='houseNumber']");
+	private static final By postCodeField = By.xpath("//input[@formcontrolname='postcode']");
+	private static final By findBtnInAddressPopup = By.xpath("//span[contains(text(),' Find ')]");
+	private static final By chooseAddressDD = By.xpath("(//span[@class='o2uk-icon-font icon-chevron-down'])[4]");
+	private static final By chooseAddressDDValue = By.xpath("(//span[@class='o2uk-option-content'])[2]");
+	private static final By cnfrmAndCntBtnInpopup = By.xpath("//span[contains(text(),' Confirm and continue ')]");
+	
+	//Manage third party contact
+	private static final By expandButton = By.xpath("//button[@title='Expand (Alt+M)']");
+	private static final By contactsBtnInSideBar = By.xpath("//a[@title='Contacts']");
+	//add contact pop-up
+	private static final By addContactBtn = By.xpath("//button[contains(text(),'Add Contact')]");
+	private static final By emailAuthcnField = By.xpath("//input[@class='gwt-TextBox nc-field-text-input']");
+	private static final By addPlusBtnInAddContct = By.xpath("//img[@class='gwt-Image add-button nc-reference-selector-add-button']");
+	//New contact pop-up
+	private static final By titleFieldDD = By.xpath("//select[@class='gwt-ListBox nc-field-list-value nc-field-container']");
+	private static final By firstNameField = By.xpath("(//input[@class='gwt-TextBox nc-field-text-input'])[1]");
+	private static final By lastNameField = By.xpath("(//input[@class='gwt-TextBox nc-field-text-input'])[3]");
+	private static final By calenderBtn = By.xpath("//img[@class='gwt-Image nc-field-calendar-button']");
+	private static final By yearDDInCalender = By.xpath("(//select[@class='datePickerMonth'])[2]");
+	private static final By dayInCalender = By.xpath("(//div[contains(text(),'9')])[2]");
+	private static final By mandatoryEmailField = By.xpath("(//input[@class='gwt-TextBox jbss-empty-textbox jbss_text_box jbss_invalid_text_box'])[1]");
+	private static final By mandatoryMobileField = By.xpath("(//input[@class='gwt-TextBox jbss-empty-textbox jbss_text_box jbss_invalid_text_box'])[2]");
+	private static final By contactRoleDD = By.xpath("(//input[@class='refsel_input'])[2]");
+	private static final By contactRoleDDValue = By.xpath("//div[contains(text(),'Power')]");
+	private static final By addPlusBtnInNewCntct = By.xpath("(//img[@class='gwt-Image add-button nc-reference-selector-add-button'])[2]");
+	private static final By postCodeFieldInMnage3rdParty = By.xpath("//input[@class='gwt-TextBox nc-field-text-input focused-content']");
+	private static final By bldngNumField = By.xpath("//input[@class='gwt-TextBox nc-field-text-input']");
+	private static final By addressLookUpBtn = By.xpath("//button[contains(text(),'Address Lookup')]");
+	private static final By lookedUpAddressValue = By.xpath("//option[contains(text(),'Shepherdswell')][2]");
+	private static final By cnfrmAddressBtn = By.xpath("//button[contains(text(),'Confirm Address')]");
+	private static final By createBtn = By.xpath("//button[contains(text(),'Create')]");
+	private static final By saveBtn = By.xpath("(//button[contains(text(),'Save')])[2]");
+
+	//view mobile number and usage details
+	private static final By nameThisDeviceDDArrow = By.xpath("(//div[@class='main-dropdown__chevron o2uk-icon o2uk-icon_size-xs dropdown-chevron'])[2]");
+	private static final By yourAliasText = By.xpath("//div[contains(text(),' Your alias ')]");
+	private static final By usageDisplay = By.xpath("//div[@class='o2uk-account-welcome__allowances ng-star-inserted']");
+	
+	//Ecare barrings
+	private static final By installSim = By.xpath("//a[contains(text(),' Install your sim ')]");
+	private static final By barAndDivert = By.xpath("//button[@data-url='Bar and divert']");
+	private static final By barringsChkBox1 = By.xpath("(//input[@class='o2uk-checkbox-input cdk-visually-hidden'])[1]");
+	private static final By barringsChkBox2 = By.xpath("(//input[@class='o2uk-checkbox-input cdk-visually-hidden'])[2]");
+	private static final By barringsChkBox3 = By.xpath("(//input[@class='o2uk-checkbox-input cdk-visually-hidden'])[3]");
+	private static final By barringsChkBox4 = By.xpath("(//input[@class='o2uk-checkbox-input cdk-visually-hidden'])[4]");
+	private static final By barringsChkBox5 = By.xpath("(//input[@class='o2uk-checkbox-input cdk-visually-hidden'])[5]");
+	private static final By barringsSaveBtn = By.xpath("(//span[contains(text(),' Save ')])");
+	
+	//spend cap
+	private static final By spendCapBtn = By.xpath("//a[contains(text(),' Spend Cap ')]");
+	private static final By spendCapChangeTo = By.xpath("(//div[@class='mat-radio-label-content'])[7]");
+	private static final By cnfrmSpendCapBtn = By.xpath("//span[contains(text(),' Confirm Spend Cap choice ')]");
+	private static final By spendCapUpdatedTxt = By.xpath("//h1[contains(text(),' Spend Cap updated ')]");
+	
+	
+	
+	private static final By quickCreate = By.xpath("//a[contains(text(),'Quick Create')]");
+	private static final By newOrder = By.xpath("//span[contains(text(),'Residential Customer')]");
+	// CSRD new login
+	private static final By csedNewEmail = By.xpath("//input[@id='email']");
+	private static final By csedReenterNewEmail = By.xpath("//input[@id='confirm-email']");
+	private static final By csrdNewContnBtn = By.xpath("//button[contains(text(),' Continue')]");
+	private static final By csrdNewBtnAccept = By.xpath("//*[@id='btnSubmit']");
+	// csrd new details 
+	private static final By csrdNewDetailsTitle = By.xpath("//select[@class='gwt-ListBox nc-field-list-value nc-field-container']");
+	private static final By csrdNewDetailsFirstName = By.xpath("(//input[@class='gwt-TextBox nc-field-text-input'])[17]");
+	private static final By csrdNewDetailsLastName = By.xpath("(//input[@class='gwt-TextBox nc-field-text-input'])[18]");
+	private static final By csrdNewAddressPlusBtn = By.xpath("(//img[@class='gwt-Image add-button nc-reference-selector-add-button'])");
+	private static final By csrdNewAddressPostCode = By.xpath("//input[@class='gwt-TextBox nc-field-text-input']");
+	private static final By csrdNewAddressBldngNum = By.xpath("(//input[@class='gwt-TextBox nc-field-text-input'])[18]");
+	private static final By csrdNewAddressCreateBtn = By.xpath("(//button[contains(text(),'Create')])[2]");
+	private static final By csrdNewAddressChkBox = By.xpath("//input[@type='checkbox']");
+	//place order
+	private static final By csrdNewPlaceOrderBtn = By.xpath("//button[contains(text(),'Place Order')]");
+	//new simo plan
+	private static final By simonly12month2Plan = By.xpath("//span[contains(text(),'Sim Only Plan Handset 12 month 2')]");
+	private static final By simonly12month2PlanBulktree = By.xpath("(//span[contains(text(),'Sim Only Plan Handset 12 month 2')])[2]");
+	private static final By allowanceBundle = By.xpath("//select[@id='listCharacteristicsSelect_9166371222813400500']");
+	private static final By phoneNumArrowDD = By.xpath("//i[@class='refsel_arrow refsel_arrow_active']");
+	private static final By phoneNumValue = By.xpath("(//div[contains(text(),'07')])[2]");
+	private static final By spendCapDD = By.xpath("//select[@id='listCharacteristicsSelect_9156572418065211705']");
+	private static final By saveBtn = By.xpath("");
+	private static final By saveBtn = By.xpath("");
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+	
+	VMOReusableLibrary Vmor = new VMOReusableLibrary(scriptHelper);
+
+	
+
+	//methods
+	//Editing customer name
+	public void Tc23_A_editCustomerName() throws InterruptedException
+	{
+		//call EcarecustomerLogin()
+		Vmor.r_click(myO2DDinEcarePage, "myO2DDinEcarePage", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(manageDetailsUnderMyo2DD, "manageDetailsUnderMyo2DD", "Y");
+		Thread.sleep(3000);
+		Vmor.r_click(personalDetailsEditBtn, "personalDetailsEditBtn", "Y");
+		Thread.sleep(3000);
+		Vmor.r_enterText(firstNameInEditPersonalDetPopup, "firstNameInEditPersonalDetPopup", "l", "Y");
+		Thread.sleep(2000);
+		//you need to have a pdf file and upload here. we need to pass the path of the doc in sendkeys
+		driver.findElement(uploadDocBtn).sendKeys("C:\\Users\\jeevank\\Desktop");
+		Thread.sleep(2000);
+		Vmor.r_click(saveBtnInPersonalDetPopup, "saveBtnInPersonalDetPopup", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(submitChangsBtnInPopup, "submitChangsBtnInPopup", "Y");
+		Thread.sleep(2000);
+
+		//call securityPage()
+		
+	}
+	//Editing address
+	public void Tc23_B_editCustomerAddress() throws InterruptedException
+	{
+		Vmor.r_click(addressEditBtn, "addressEditBtn", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(houseNumField, "houseNumField", "8", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(postCodeField, "postCodeField", "CT157PD", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(findBtnInAddressPopup, "findBtnInAddressPopup", "Y");
+		Thread.sleep(2000);
+		Vmor.r_clickByJse(chooseAddressDD, "chooseAddressDD");
+		Thread.sleep(2000);
+		Vmor.r_clickByJse(chooseAddressDDValue, "chooseAddressDDValue");
+		Thread.sleep(2000);
+		Vmor.r_click(cnfrmAndCntBtnInpopup, "cnfrmAndCntBtnInpopup", "Y");
+
+	}
+	public void Tc23_C_ManageThirdPartyContact() throws InterruptedException
+	{
+		Vmor.r_clickByJse(expandButton, "expandButton");
+		Thread.sleep(2000);
+		Vmor.r_click(contactsBtnInSideBar, "contactsBtnInSideBar", "Y");
+		Thread.sleep(4000);
+		Vmor.r_click(addContactBtn, "addContactBtn", "Y");
+		Thread.sleep(2000);
+//		enter a new email from VG
+		Vmor.r_enterText(emailAuthcnField, "emailAuthcnField", "enter a new email from VG", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(addPlusBtnInAddContct, "addPlusBtnInAddContct", "Y");
+		Thread.sleep(2000);
+		Vmor.selectByValue(titleFieldDD, "titleFieldDD", "Mr");
+		Thread.sleep(2000);
+		Vmor.r_enterText(firstNameField, "firstNameField", "ttt", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(lastNameField, "lastNameField", "uuu", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(calenderBtn, "calenderBtn", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(mandatoryEmailField, "mandatoryEmailFiled", "abcd12@gmail.com", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(mandatoryMobileField, "mandatoryFiled", "07688887766", "Y");
+		Thread.sleep(2000);
+		Vmor.selectByValue(yearDDInCalender, "yearDDInCalender", "1995");
+		Thread.sleep(2000);
+		Vmor.r_clickByJse(dayInCalender, "dayInCalender");
+		Thread.sleep(2000);
+		Vmor.r_clickByJse(contactRoleDD, "contactRoleDD");
+		Thread.sleep(2000);
+		Vmor.r_clickByJse(contactRoleDDValue, "contactRoleDDValue");
+		Thread.sleep(2000);
+		Vmor.r_clickByJse(addPlusBtnInNewCntct, "addPlusBtnInNewCntct");
+		Thread.sleep(2000);
+		Vmor.r_enterText(postCodeFieldInMnage3rdParty, "postCodeFieldInMnage3rdParty", "CT157PD", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(bldngNumField, "bldngNumField", "8", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(addressLookUpBtn, "addressLookUpBtn", "Y");
+		Thread.sleep(4000);
+		Vmor.r_click(lookedUpAddressValue, "lookedUpAddressValue", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(cnfrmAddressBtn, "cnfrmAddressBtn", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(createBtn, "createBtn", "Y");
+		Thread.sleep(4000);
+		Vmor.r_click(saveBtn, "saveBtn", "Y");
+		Thread.sleep(4000);
+
+		
+	}
+
+	//checking if mobile num and usage details are displayed
+	public void Tc23_D_viewMobileNumAndUsage() throws InterruptedException
+	{
+		Vmor.r_click(nameThisDeviceDDArrow, "nameThisDeviceDDArrow", "Y");
+		Thread.sleep(2000);
+		Vmor.AssertIsElementDisplayed(yourAliasText, "yourAliasText");
+		Vmor.AssertIsElementDisplayed(usageDisplay, "usageDisplay");
+
+	}
+	
+	public void Tc23_E_barrings() throws InterruptedException
+	{
+		Vmor.r_click(myO2DDinEcarePage, "myO2DDinEcarePage", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(installSim, "installSim", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(barAndDivert, "barAndDivert", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(myO2DDinEcarePage, "myO2DDinEcarePage", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(barringsChkBox1, "barringsChkBox1", "Y");
+		Vmor.r_click(barringsChkBox2, "barringsChkBox2", "Y");
+		Vmor.r_click(barringsChkBox3, "barringsChkBox3", "Y");
+		Vmor.r_click(barringsChkBox4, "barringsChkBox4", "Y");
+		Vmor.r_click(barringsChkBox5, "barringsChkBox5", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(barringsSaveBtn, "barringsSaveBtn", "Y");
+
+	}
+	public void Tc23_F_changeSpendCap() throws InterruptedException
+	{
+		Vmor.r_click(spendCapBtn, "spendCapBtn", "Y");
+		Vmor.r_click(spendCapChangeTo, "spendCapChangeTo", "Y");
+		Vmor.r_click(cnfrmSpendCapBtn, "cnfrmSpendCapBtn", "Y");
+		Vmor.validateText("Spend Cap updated", spendCapUpdatedTxt, "spendCapUpdatedTxt") ;
+
+	}
+
+	//**************************************************
+	public void createNewCustomer()
+	{		
+		Thread.sleep(4000);
+		Vmor.hoverAndClickElement(quickCreate, newOrder, 0);
+		Thread.sleep(2000);
+
+
+	}
+	public void CsrdnewLogin()
+	{
+		Vmor.r_enterText(csedNewEmail, "csedNewEmail", "uuoo@gmail.com", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(csedReenterNewEmail, "csedReenterNewEmail", "uuoo@gmail.com", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(csrdNewContnBtn, "csrdNewContnBtn", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(csrdNewBtnAccept, "csrdNewBtnAccept", "Y");
+		Thread.sleep(2000);
+
+	}
+	public void csrdNewDetails()
+	{
+		Vmor.selectByVisibleText(csrdNewDetailsTitle, "csrdNewDetailsTitle", "Mr");
+		Thread.sleep(2000);
+		Vmor.r_enterText(csrdNewDetailsFirstName, "csrdNewDetailsFirstName", "uupp", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(csrdNewDetailsLastName, "csrdNewDetailsLastName", "lloo", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(csrdNewAddressPlusBtn, "csrdNewAddressPlusBtn", "Y");
+		Thread.sleep(4000);
+		Vmor.r_enterText(csrdNewAddressPostCode, "csrdNewAddressPostCode", "CT157PD", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(csrdNewAddressBldngNum, "csrdNewAddressBldngNum", "8", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(addressLookUpBtn, "addressLookUpBtn", "Y");
+		Thread.sleep(4000);
+		Vmor.r_click(lookedUpAddressValue, "lookedUpAddressValue", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(cnfrmAddressBtn, "cnfrmAddressBtn", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(calenderBtn, "calenderBtn", "Y");
+		Thread.sleep(2000);
+		Vmor.selectByVisibleText(yearDDInCalender, "yearDDInCalender", "1995");
+		Thread.sleep(2000);
+		Vmor.r_clickByJse(dayInCalender, "dayInCalender");
+		Thread.sleep(2000);
+		Vmor.r_enterText(mandatoryEmailField, "mandatoryEmailFiled", "abcd12@gmail.com", "Y");
+		Thread.sleep(2000);
+		Vmor.r_enterText(mandatoryMobileField, "mandatoryFiled", "07688887766", "Y");
+		Thread.sleep(2000);
+//		Vmor.r_click(csrdNewAddressCreateBtn, "csrdNewAddressCreateBtn", "Y");
+//		Thread.sleep(2000);
+		Vmor.r_click(csrdNewAddressChkBox, "csrdNewAddressChkBox", "Y");
+		Thread.sleep(2000);
+		Vmor.r_click(csrdNewAddressCreateBtn, "csrdNewAddressCreateBtn", "Y");
+		Thread.sleep(8000);
+	}
+	public void placeOrder()
+	{
+		Vmor.r_click(csrdNewPlaceOrderBtn, "csrdNewPlaceOrderBtn", "Y");
+		Thread.sleep(4000);
+	}
+	
+	//call creatingNewOrder()
+	// call verifyOrderNo
+	public void addnewSimoPlan()
+	{
+		Vmor.r_clickByJse(simonly12month2Plan, "simonly12month2Plan");
+		// call verifyOrderNo
+		Thread.sleep(5000);
+		WebElement iframeElement = driver.findElement(frameElement);
+		Thread.sleep(5000);
+		Vmor.r_clickByJse(simonly12month2PlanBulktree, "simonly12month2PlanBulktree");
+		Thread.sleep(2000);
+		Vmor.selectByVisibleText(allowanceBundle, "allowanceBundle", "25GB, Unlimited UK Minutes, Unlimited UK Texts");
+		Thread.sleep(2000);
+		Vmor.r_click(phoneNumArrowDD, "phoneNumArrowDD", "Y");
+		Thread.sleep(4000);
+		Vmor.r_clickByJse(phoneNumValue, "phoneNumValue");
+		Thread.sleep(5000);
+		Vmor.selectByVisibleText(spendCapDD, "spendCapDD", "No Spend Cap");
+		Thread.sleep(5000);
+
+
+	}
+	public void customerInfoPage()
+	{
+		
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

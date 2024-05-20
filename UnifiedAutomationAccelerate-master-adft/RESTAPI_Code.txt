@@ -1,0 +1,53 @@
+OkHttpClient client = new OkHttpClient().newBuilder().build();
+MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
+RequestBody body = RequestBody.create(mediaType, "grant_type=client_credentials& client_assertion_type=urn%3Aietf%3Aparams%3Aoauth%3Aclient-assertion-type%3Ajwt-bearer");
+Request request = new Request.Builder()
+  .url("https://sapim.ref.o2.co.uk/api/token")
+  .method("POST", body)
+  .addHeader("Content-Type", "application/x-www-form-urlencoded")
+  .addHeader("X-REQUESTING-USER", "SYSTEM")
+  .addHeader("X-CLIENT-TRANSACTION-ID", "d157648e-g7c4-yyxx-b25b-61e18d371032")
+  .addHeader("Authorization", "Basic YWNjZWxlcmF0ZS10ZXN0LWF1dG9tYXRpb246cGEkJFcwckBkcmVmIyNA")
+  .build();
+Response response = client.newCall(request).execute();
+
+
+
+OkHttpClient client = new OkHttpClient().newBuilder()
+  .build();
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "");
+Request request = new Request.Builder()
+  .url("https://sapim.ref.o2.co.uk/tuk/ref/apic/identity/v2/identity/identity-details?identifier=email&identifier_value=odoneq@mailto.plus")
+  .method("GET", body)
+  .addHeader("Authorization", "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImlkZyJ9.eyJpc3MiOiJodHRwczovL2FwaS5yZWYubzIuY28udWsiLCJhdWQiOiJhY2NlbGVyYXRlLXRlc3QtYXV0b21hdGlvbiIsImV4cCI6MTY4MzYyODc1NS4wMDF9.TDJOPPmRmI9PvjjvgkrxzVXXJa3BxSN9eVInx5ZKvdSX7btz-3mTu9JDgRXsTDJlyAIDS0lnEUU9zu_BxZJpnb5L7llwk182wYkseElDRagsVOVrI10SGiJNJzWtK4DCC_cjUCRTo9yAg-sBo4EbFYWozbZYbs95Cee__XaQrlPVNkuVE8XreY7idANd4morvvzsnAZbsk9ylbTF9dSo5pnPAzX3F9SiGnWZ5jMBVizR8KMYwveJTgjc3CNiHOSCKZSeywVRaSvE_EtVWNQXAKW1Z_ttipuTsYjW6hjPqIK4qk3KPXRaKSwmS3EYnVGLIv_JxT8i4zQIA9FQuRoawg")
+  .addHeader("X-IBM-CLIENT-ID", "18ea98153440c951e81f60c52aad90a4")
+  .addHeader("Accept", "application/json, application/*+json")
+  .addHeader("X-REQUESTING-USER", "SYSTEM")
+  .addHeader("Host", "sapim.ref.o2.co.uk")
+  .addHeader("Content-Length", "0")
+  .addHeader("X-CLIENT-TRANSACTION-ID", "1909a7b5-7770-478a-9783-fefcb67ec7ab")
+  .addHeader("X-IBM-CLIENT-SECRET", "feebd760fb15ddc298bf0aca883770ea")
+  .addHeader("Content-Type", "application/json")
+  .build();
+Response response = client.newCall(request).execute();
+
+
+OkHttpClient client = new OkHttpClient().newBuilder()
+  .build();
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "{\"idVersion\":\"0006\",\"idEntidad\":\"TEUK\",\"idComercio\":\"000000007\",\"iDTM\":\"1600\",\"codMon\":978,\"idPedido\":\"91526484424424100000\",\"impTrans\":100,\"timeTrans\":\"2018-10-20T00:18:00.007 Europe/London\",\"firmToken\":\"0000TEST134ba4e41915abfe737939c97cce0f307fdccae8bb9eae6728f7f18e8a775bfb977f3529bd842c87b7388b77e569759b5609ed5e79a357624b35c497973e684a123e86edb90cea0e105b3f5fcf03edc8726cebd524a406c35f029410968232fe46f73d0c87b92cd5d3caa2b5dc63566457a1f94da3ef71f31ebdf63669c18641e5f3fefcb80496607b543157cbf0371125a7c92a3e39224b104f8be5e6846b95f110c88219bdbfef3c5f52034e9a780510183f630a0ea6e7b0b0fd081432864a5c8f436c126b06f74a6c830dd73f420a293b163690e7881f8f3f6832412db337c58ef4416db683e2fa0b78b72fadc9a6cdb5b02a74add38e794bdd3684106e28\",\"fechProOri\":\"181203181201\"}");
+Request request = new Request.Builder()
+  .url("https://sapim.ref.o2.co.uk/tuk/ref/apic/Payment/duplicate")
+  .method("POST", body)
+  .addHeader("X-IBM-CLIENT-ID", "18ea98153440c951e81f60c52aad90a4")
+  .addHeader("Accept", "application/json, application/*+json")
+  .addHeader("X-REQUESTING-USER", "SYSTEM")
+  .addHeader("Host", "sapim.ref.o2.co.uk")
+  .addHeader("Content-Length", "755")
+  .addHeader("X-CLIENT-TRANSACTION-ID", "d5d8bf81-cdaa-47f6-a644-0ea624f9527d")
+  .addHeader("X-IBM-CLIENT-SECRET", "feebd760fb15ddc298bf0aca883770ea")
+  .addHeader("Content-Type", "application/json")
+  .addHeader("Authorization", "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImlkZyJ9.eyJpc3MiOiJodHRwczovL2FwaS5yZWYubzIuY28udWsiLCJhdWQiOiJhY2NlbGVyYXRlLXRlc3QtYXV0b21hdGlvbiIsImV4cCI6MTY4MzYyMTE1Mi45NDR9.aCCOuaW3CsFKmwsGkRbez_FO6mH_BvaQ4I3zPCsl3tjknHuu1FbHUrxHKi341w0Gfoi6FMYZaJrJVxm-x0MQuEM_Sa_KLSn2F1BArX02bvMqsThsiBmzx69x6rAEOtOTdzJF0x4IZWccEjqRZEMksxRe1hvM38J6JIbHHIxllpmAXIKV1aKXvKMNNxsCS8Afw1hhXITz3NeuUtf56HoK6VrQQ4WHuFqa3dyQySxQ3jRe6WEkdYirSp8_dlc5idvNPvuK8RsRKvkjRGsEmLLz87hHtGxXR9FlyVL-uN_0u8zVMlHbjkgHB6MdkueuWTLotUCEOv3Jy5iE6Abf1l-39g")
+  .build();
+Response response = client.newCall(request).execute();
