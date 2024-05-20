@@ -1,0 +1,9 @@
+#check if port 7878 is already being used
+if [[ $(netstat -ano | grep 'LISTENING' | grep':7878' | wc-1) -gt 0]]
+then
+# Get the PID of the process running on port 7878
+pid=$(netstat -ano | grep 'LISTENING' | grep':7878' |awk '{print $5}' | awk -F ":" '{print $2}')
+echo "killing process with PID $pid"
+# kill the process
+kill -9 $pid
+fi

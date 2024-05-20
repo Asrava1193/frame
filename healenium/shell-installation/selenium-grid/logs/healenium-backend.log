@@ -1,0 +1,43 @@
+2024-02-27 15:14:17.590  INFO 4624 - [       main] c.epam.healenium.Application     : Starting Application v3.4.2 using Java 17.0.10 with PID 4624 (C:\CraftAdft\healenium\shell-installation\selenium-grid\hlm-backend.jar started by murugas3 in C:\CraftAdft\healenium\shell-installation\selenium-grid) 
+2024-02-27 15:14:17.598  INFO 4624 - [       main] c.epam.healenium.Application     : No active profile set, falling back to 1 default profile: "default" 
+2024-02-27 15:14:19.853  INFO 4624 - [       main] .RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-02-27 15:14:20.365  INFO 4624 - [       main] .RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 420 ms. Found 4 JPA repository interfaces. 
+2024-02-27 15:14:21.987  INFO 4624 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat initialized with port(s): 7878 (http) 
+2024-02-27 15:14:22.012  INFO 4624 - [       main] o.a.c.core.StandardService       : Starting service [Tomcat] 
+2024-02-27 15:14:22.013  INFO 4624 - [       main] o.a.c.core.StandardEngine        : Starting Servlet engine: [Apache Tomcat/10.1.15] 
+2024-02-27 15:14:22.208  INFO 4624 - [       main] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring embedded WebApplicationContext 
+2024-02-27 15:14:22.209  INFO 4624 - [       main] rvletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4488 ms 
+2024-02-27 15:14:22.660  INFO 4624 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Starting... 
+2024-02-27 15:14:23.129  INFO 4624 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Start completed. 
+2024-02-27 15:14:23.388  INFO 4624 - [       main] liquibase.database               : Set default schema name to healenium 
+2024-02-27 15:14:23.675  INFO 4624 - [       main] liquibase.lockservice            : Successfully acquired change log lock 
+2024-02-27 15:14:24.453  INFO 4624 - [       main] liquibase.changelog              : Reading from healenium.databasechangelog 
+2024-02-27 15:14:24.513  INFO 4624 - [       main] liquibase.changelog              : Reading from healenium.databasechangelog 
+2024-02-27 15:14:24.522  INFO 4624 - [       main] liquibase.util                   : UPDATE SUMMARY 
+2024-02-27 15:14:24.522  INFO 4624 - [       main] liquibase.util                   : Run:                          0 
+2024-02-27 15:14:24.523  INFO 4624 - [       main] liquibase.util                   : Previously run:              10 
+2024-02-27 15:14:24.523  INFO 4624 - [       main] liquibase.util                   : Filtered out:                 0 
+2024-02-27 15:14:24.523  INFO 4624 - [       main] liquibase.util                   : ------------------------------- 
+2024-02-27 15:14:24.524  INFO 4624 - [       main] liquibase.util                   : Total change sets:           10\n \n  
+2024-02-27 15:14:24.525  INFO 4624 - [       main] liquibase.util                   : Update summary generated 
+2024-02-27 15:14:24.555  INFO 4624 - [       main] liquibase.lockservice            : Successfully released change log lock 
+2024-02-27 15:14:24.563  INFO 4624 - [       main] liquibase.lockservice            : Successfully released change log lock 
+2024-02-27 15:14:24.566  INFO 4624 - [       main] liquibase.command                : Command execution complete 
+2024-02-27 15:14:24.749  INFO 4624 - [       main] o.h.j.internal.util.LogHelper    : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-02-27 15:14:24.869  INFO 4624 - [       main] org.hibernate.Version            : HHH000412: Hibernate ORM core version 6.2.13.Final 
+2024-02-27 15:14:24.874  INFO 4624 - [       main] org.hibernate.cfg.Environment    : HHH000406: Using bytecode reflection optimizer 
+2024-02-27 15:14:25.359  INFO 4624 - [       main] .o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-02-27 15:14:25.410  WARN 4624 - [       main] org.hibernate.orm.deprecation    : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-02-27 15:14:26.912  WARN 4624 - [       main] o.h.m.internal.MetadataContext   : HHH015011: Unable to locate static metamodel field : com.epam.healenium.model.domain.Selector_#nodePathWrapper; this may or may not indicate a problem with the static metamodel 
+2024-02-27 15:14:26.918  INFO 4624 - [       main] h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-02-27 15:14:26.923  INFO 4624 - [       main] ontainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-02-27 15:14:27.436  INFO 4624 - [       main] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used. 
+2024-02-27 15:14:28.370  INFO 4624 - [       main] .a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2024-02-27 15:14:29.047  INFO 4624 - [       main] .s.b.a.e.w.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator' 
+2024-02-27 15:14:29.175  WARN 4624 - [       main] rvletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop' 
+2024-02-27 15:14:29.210  INFO 4624 - [       main] ontainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-02-27 15:14:29.217  INFO 4624 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Shutdown initiated... 
+2024-02-27 15:14:29.222  INFO 4624 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Shutdown completed. 
+2024-02-27 15:14:29.226  INFO 4624 - [       main] o.a.c.core.StandardService       : Stopping service [Tomcat] 
+2024-02-27 15:14:29.263  INFO 4624 - [       main] .ConditionEvaluationReportLogger : \n \n \n \n Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-02-27 15:14:29.311 ERROR 4624 - [       main] d.LoggingFailureAnalysisReporter : \n \n \n \n ***************************\n \n APPLICATION FAILED TO START\n \n ***************************\n \n \n \n Description:\n \n \n \n Web server failed to start. Port 7878 was already in use.\n \n \n \n Action:\n \n \n \n Identify and stop the process that's listening on port 7878 or configure this application to listen on another port.\n \n  
