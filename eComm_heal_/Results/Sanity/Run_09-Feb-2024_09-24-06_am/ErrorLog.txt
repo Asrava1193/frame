@@ -1,0 +1,8 @@
+Exception in thread "pool-1-thread-1" com.cognizant.framework.FrameworkException: Unhandled Execution Mode!
+	at com.cognizant.craft.DriverScript.createTestLogHeader(DriverScript.java:634)
+	at com.cognizant.craft.DriverScript.initializeTestReport(DriverScript.java:470)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:176)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)

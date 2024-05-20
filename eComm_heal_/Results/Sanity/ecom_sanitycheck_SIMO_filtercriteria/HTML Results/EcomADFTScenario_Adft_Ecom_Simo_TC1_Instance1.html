@@ -1,0 +1,828 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>ADFT End to End - EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+			 th.perfColor { 
+				 color: darkorchid; 
+			 } 
+
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 ADFT End to End - EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;31-Oct-2023&nbsp;07:48:34&nbsp;AM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplicationEcom')">&nbsp;+ invokeApplicationEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplicationEcom1'> 
+					 <td>1</td> 
+					 <td class='justified'>Url is launched successfully</td> 
+					 <td class='justified'>https://ecommerce-pad-conf-1.vip.a.itdev.uk.pri.o2.com/shop/</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:49:12 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-49-12_AM_Url_is_launched_successfully.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectDeviceEcom')">&nbsp;+ selectDeviceEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom1'> 
+					 <td>2</td> 
+					 <td class='justified'>acceptAllCookiesBtn</td> 
+					 <td class='justified'>acceptAllCookiesBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:49:13 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-49-13_AM_acceptAllCookiesBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom2'> 
+					 <td>3</td> 
+					 <td class='justified'>shopLink</td> 
+					 <td class='justified'>shopLinkis in a visible state and moved to the element</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:49:14 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-49-13_AM_shopLink.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom3'> 
+					 <td>4</td> 
+					 <td class='justified'>deviceType</td> 
+					 <td class='justified'>deviceType is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:49:15 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-49-14_AM_deviceType.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterCustomerDetailsEcom')">&nbsp;+ enterCustomerDetailsEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom1'> 
+					 <td>5</td> 
+					 <td class='justified'>contractLengthfilter</td> 
+					 <td class='justified'>contractLengthfilter is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:51:02 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-51-01_AM_contractLengthfilter.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom2'> 
+					 <td>6</td> 
+					 <td class='justified'>contractLengthSelection</td> 
+					 <td class='justified'>contractLengthSelection is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:51:43 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-51-42_AM_contractLengthSelection.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom3'> 
+					 <td>7</td> 
+					 <td class='justified'>simoFilter</td> 
+					 <td class='justified'>simoFilter is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:52:03 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-52-03_AM_simoFilter.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom4'> 
+					 <td>8</td> 
+					 <td class='justified'>monthlyDataSelectAll</td> 
+					 <td class='justified'>monthlyDataSelectAll is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:52:23 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-52-22_AM_monthlyDataSelectAll.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom5'> 
+					 <td>9</td> 
+					 <td class='justified'>simaddtobasket</td> 
+					 <td class='justified'>simaddtobasket is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:53:17 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-53-15_AM_simaddtobasket.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom6'> 
+					 <td>10</td> 
+					 <td class='justified'>showAllowanceDetails</td> 
+					 <td class='justified'>showAllowanceDetails is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:53:30 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-53-29_AM_showAllowanceDetails.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom7'> 
+					 <td>11</td> 
+					 <td class='justified'>Simo plan capacity </td> 
+					 <td class='justified'>Simo plan capacity is correct Unlimited Plus</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:53:32 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-53-32_AM_Simo_plan_capacity_.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom8'> 
+					 <td>12</td> 
+					 <td class='justified'>Simo plan price </td> 
+					 <td class='justified'>Simo plan price is incorrect £34.99† Monthly</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Oct-2023 07:53:40 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-53-39_AM_Simo_plan_price_.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom9'> 
+					 <td>13</td> 
+					 <td class='justified'>addToBasketAccessories</td> 
+					 <td class='justified'>addToBasketAccessories is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:53:42 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-53-41_AM_addToBasketAccessories.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom10'> 
+					 <td>14</td> 
+					 <td class='justified'>checkOutBtn</td> 
+					 <td class='justified'>checkOutBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:53:54 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-53-54_AM_checkOutBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom11'> 
+					 <td>15</td> 
+					 <td class='justified'>customerCreateEmail</td> 
+					 <td class='justified'>Y2KvEYa3HrRZ@yopmail.com is entered successfully in the text box  - customerCreateEmail</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:01 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-01_AM_customerCreateEmail.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom12'> 
+					 <td>16</td> 
+					 <td class='justified'>loginEmail</td> 
+					 <td class='justified'>loginEmail is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:02 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-02_AM_loginEmail.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom13'> 
+					 <td>17</td> 
+					 <td class='justified'>customerPreferredTitle</td> 
+					 <td class='justified'>Mr is entered successfully in the text box  - customerPreferredTitle</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:54:28 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom14'> 
+					 <td>18</td> 
+					 <td class='justified'>customerFirstName</td> 
+					 <td class='justified'>JohnBfiWC is entered successfully in the text box  - customerFirstName</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:30 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-30_AM_customerFirstName.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom15'> 
+					 <td>19</td> 
+					 <td class='justified'>customerLastName</td> 
+					 <td class='justified'>Mcgill is entered successfully in the text box  - customerLastName</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:33 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-32_AM_customerLastName.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom16'> 
+					 <td>20</td> 
+					 <td class='justified'>customerDOB</td> 
+					 <td class='justified'>11/10/1992 is entered successfully in the text box  - customerDOB</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:35 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-35_AM_customerDOB.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom17'> 
+					 <td>21</td> 
+					 <td class='justified'>customerTelephoneNum</td> 
+					 <td class='justified'>07688887766 is entered successfully in the text box  - customerTelephoneNum</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:37 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-36_AM_customerTelephoneNum.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom18'> 
+					 <td>22</td> 
+					 <td class='justified'>customerPostalCode</td> 
+					 <td class='justified'>YO17JF is entered successfully in the text box  - customerPostalCode</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:39 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-38_AM_customerPostalCode.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom19'> 
+					 <td>23</td> 
+					 <td class='justified'>customerFindButton</td> 
+					 <td class='justified'>customerFindButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:39 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-39_AM_customerFindButton.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterAddressDetailsEcom')">&nbsp;+ enterAddressDetailsEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom1'> 
+					 <td>24</td> 
+					 <td class='justified'>addressDropdown</td> 
+					 <td class='justified'>addressDropdown is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:45 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-45_AM_addressDropdown.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom2'> 
+					 <td>25</td> 
+					 <td class='justified'>addressDropdownOptions</td> 
+					 <td class='justified'>addressDropdownOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:50 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-50_AM_addressDropdownOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom3'> 
+					 <td>26</td> 
+					 <td class='justified'>addressCheckbox</td> 
+					 <td class='justified'>addressCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:51 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-51_AM_addressCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom4'> 
+					 <td>27</td> 
+					 <td class='justified'>addressConfirm</td> 
+					 <td class='justified'>addressConfirm is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:54:52 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-54-51_AM_addressConfirm.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectDeliveryOptionEcom')">&nbsp;+ selectDeliveryOptionEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeliveryOptionEcom1'> 
+					 <td>28</td> 
+					 <td class='justified'>confirmDeliveryOption</td> 
+					 <td class='justified'>confirmDeliveryOption is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:02 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-02_AM_confirmDeliveryOption.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1eligibiltyCheckEcom')">&nbsp;+ eligibiltyCheckEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom1'> 
+					 <td>29</td> 
+					 <td class='justified'>timeAtAddress</td> 
+					 <td class='justified'>timeAtAddress is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:08 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-08_AM_timeAtAddress.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom2'> 
+					 <td>30</td> 
+					 <td class='justified'>eligibilityCheckheckOptions</td> 
+					 <td class='justified'>eligibilityCheckheckOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:09 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-09_AM_eligibilityCheckheckOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom3'> 
+					 <td>31</td> 
+					 <td class='justified'>employmentStatus</td> 
+					 <td class='justified'>employmentStatus is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:10 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-09_AM_employmentStatus.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom4'> 
+					 <td>32</td> 
+					 <td class='justified'>eligibilityCheckheckOptions</td> 
+					 <td class='justified'>eligibilityCheckheckOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:10 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-10_AM_eligibilityCheckheckOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom5'> 
+					 <td>33</td> 
+					 <td class='justified'>personalAnnualIncome</td> 
+					 <td class='justified'>personalAnnualIncome is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:10 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-10_AM_personalAnnualIncome.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom6'> 
+					 <td>34</td> 
+					 <td class='justified'>eligibilityCheckheckOptions</td> 
+					 <td class='justified'>eligibilityCheckheckOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:11 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-11_AM_eligibilityCheckheckOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom7'> 
+					 <td>35</td> 
+					 <td class='justified'>EligibilityCheckAgree</td> 
+					 <td class='justified'>EligibilityCheckAgree is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:12 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-11_AM_EligibilityCheckAgree.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom8'> 
+					 <td>36</td> 
+					 <td class='justified'>EligibilityCheckContinue</td> 
+					 <td class='justified'>EligibilityCheckContinue is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:12 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-12_AM_EligibilityCheckContinue.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom9'> 
+					 <td>37</td> 
+					 <td class='justified'>contractInfoButton</td> 
+					 <td class='justified'>contractInfoButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:23 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-22_AM_contractInfoButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom10'> 
+					 <td>38</td> 
+					 <td class='justified'>continueButton</td> 
+					 <td class='justified'>continueButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:55:49 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-28_AM_continueButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom11'> 
+					 <td>39</td> 
+					 <td class='justified'>contractInfoButton</td> 
+					 <td class='justified'>contractInfoButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:00 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-55-59_AM_contractInfoButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom12'> 
+					 <td>40</td> 
+					 <td class='justified'>contractCheckbox</td> 
+					 <td class='justified'>contractCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:10 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-10_AM_contractCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom13'> 
+					 <td>41</td> 
+					 <td class='justified'>confirmContract</td> 
+					 <td class='justified'>confirmContract is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:11 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-10_AM_confirmContract.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom14'> 
+					 <td>42</td> 
+					 <td class='justified'>continueButton</td> 
+					 <td class='justified'>continueButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:16 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-16_AM_continueButton.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterBankDetailsEcom')">&nbsp;+ enterBankDetailsEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom1'> 
+					 <td>43</td> 
+					 <td class='justified'>bankAccountHolder</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - bankAccountHolder</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:56:22 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom2'> 
+					 <td>44</td> 
+					 <td class='justified'>bankAccountNumber</td> 
+					 <td class='justified'>10207136 is entered successfully in the text box  - bankAccountNumber</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:56:22 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom3'> 
+					 <td>45</td> 
+					 <td class='justified'>sortCode</td> 
+					 <td class='justified'>201596 is entered successfully in the text box  - sortCode</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:56:23 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom4'> 
+					 <td>46</td> 
+					 <td class='justified'>validateButton</td> 
+					 <td class='justified'>validateButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:24 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-23_AM_validateButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom5'> 
+					 <td>47</td> 
+					 <td class='justified'>checkBox</td> 
+					 <td class='justified'>checkBox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:25 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-24_AM_checkBox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom6'> 
+					 <td>48</td> 
+					 <td class='justified'>saveContinueBtn</td> 
+					 <td class='justified'>saveContinueBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:25 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-25_AM_saveContinueBtn.png'></img></td> 
+				 </tr> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('SwitchingtotabInterface')">+ >>> Switching to tab 'Interface' ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='SwitchingtotabInterface' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('SwitchedtotabInterface')">+ >>> Switched to tab 'Interface'!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='SwitchedtotabInterface' style='display:table-row-group'> 
+				 <tr class='content' id='SwitchedtotabInterfaceenterBankDetailsEcom7'> 
+					 <td>1</td> 
+					 <td class='justified'>CardHolderName</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - CardHolderName</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:56:36 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabInterfaceenterBankDetailsEcom8'> 
+					 <td>2</td> 
+					 <td class='justified'>CardHolderName</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - CardHolderName</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:56:37 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabInterfaceenterBankDetailsEcom9'> 
+					 <td>3</td> 
+					 <td class='justified'>CardNumber</td> 
+					 <td class='justified'>4929476055899001 is entered successfully in the text box  - CardNumber</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:56:37 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabInterfaceenterBankDetailsEcom10'> 
+					 <td>4</td> 
+					 <td class='justified'>SecurityCode</td> 
+					 <td class='justified'>472 is entered successfully in the text box  - SecurityCode</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:56:38 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabInterfaceenterBankDetailsEcom11'> 
+					 <td>5</td> 
+					 <td class='justified'>completePurchase</td> 
+					 <td class='justified'>completePurchase is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:39 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-38_AM_completePurchase.png'></img></td> 
+				 </tr> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchtodefaultcontent')">+ >>> Switch to default content ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchtodefaultcontent' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchedtodefaultcontent')">+ >>> Switched to default content!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchedtodefaultcontent' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchingtotab0')">+ >>> Switching to tab '0' ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchingtotab0' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Totaltabs1')">+ >>> Total tabs: '1'</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Totaltabs1' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchedtotab0')">+ >>> Switched to tab '0'!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchedtotab0' style='display:table-row-group'> 
+				 <tr class='content' id='Switchedtotab0enterBankDetailsEcom12'> 
+					 <td>1</td> 
+					 <td class='justified'>confirmContinue</td> 
+					 <td class='justified'>confirmContinue is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:44 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-44_AM_confirmContinue.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0enterBankDetailsEcom13'> 
+					 <td>2</td> 
+					 <td class='justified'>continueCreditCheck</td> 
+					 <td class='justified'>continueCreditCheck is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:45 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-45_AM_continueCreditCheck.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Switchedtotab0checkoutOrderEcom')">&nbsp;+ checkoutOrderEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom1'> 
+					 <td>3</td> 
+					 <td class='justified'>packageNme</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - packageNme</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:51 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-51_AM_packageNme.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom2'> 
+					 <td>4</td> 
+					 <td class='justified'>confirmCreditButtton</td> 
+					 <td class='justified'>confirmCreditButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:56:56 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-56-56_AM_confirmCreditButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom3'> 
+					 <td>5</td> 
+					 <td class='justified'>confirmCreditButtton</td> 
+					 <td class='justified'>confirmCreditButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:02 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-01_AM_confirmCreditButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom4'> 
+					 <td>6</td> 
+					 <td class='justified'>confirmCreditButtton</td> 
+					 <td class='justified'>confirmCreditButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:13 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-12_AM_confirmCreditButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom5'> 
+					 <td>7</td> 
+					 <td class='justified'>continueCreditCheck</td> 
+					 <td class='justified'>continueCreditCheck is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:18 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-18_AM_continueCreditCheck.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom6'> 
+					 <td>8</td> 
+					 <td class='justified'>reviewOrder</td> 
+					 <td class='justified'>reviewOrder is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:24 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-23_AM_reviewOrder.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom7'> 
+					 <td>9</td> 
+					 <td class='justified'>secureCheckout</td> 
+					 <td class='justified'>secureCheckout is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:39 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-39_AM_secureCheckout.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom8'> 
+					 <td>10</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:44 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-44_AM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom9'> 
+					 <td>11</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:50 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-50_AM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom10'> 
+					 <td>12</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:50 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-50_AM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom11'> 
+					 <td>13</td> 
+					 <td class='justified'>secureCheckout</td> 
+					 <td class='justified'>secureCheckout is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>31-Oct-2023 07:57:56 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-57-56_AM_secureCheckout.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom12'> 
+					 <td>14</td> 
+					 <td class='justified'>Error</td> 
+					 <td class='justified'>Error while writing screenshot to file</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Oct-2023 07:58:17 AM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_Simo_TC1_Instance1_31-Oct-2023_07-58-17_AM_Error.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom13'> 
+					 <td>15</td> 
+					 <td class='justified'>CRAFT Info</td> 
+					 <td class='justified'>Test case iteration terminated by user! Proceeding to next iteration (if applicable)...</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>31-Oct-2023 07:58:17 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 9 minute(s), 43 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 57</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 5</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>

@@ -1,0 +1,13 @@
+Exception in thread "pool-1-thread-1" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "SHdriver" is null
+	at com.cognizant.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:76)
+	at com.cognizant.framework.Report.handleStepInvolvingScreenshot(Report.java:462)
+	at com.cognizant.framework.Report.updateTestLog(Report.java:349)
+	at com.cognizant.craft.DriverScript.exceptionHandler(DriverScript.java:875)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:755)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:204)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:186)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:178)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)

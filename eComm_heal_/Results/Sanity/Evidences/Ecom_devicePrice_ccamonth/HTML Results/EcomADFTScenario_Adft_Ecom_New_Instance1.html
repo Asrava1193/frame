@@ -1,0 +1,1129 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>ADFT End to End - EcomADFTScenario_Adft_Ecom_New_Instance1 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+			 th.perfColor { 
+				 color: darkorchid; 
+			 } 
+
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 ADFT End to End - EcomADFTScenario_Adft_Ecom_New_Instance1 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;20-Oct-2023&nbsp;12:42:29&nbsp;PM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplicationEcom')">&nbsp;+ invokeApplicationEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplicationEcom1'> 
+					 <td>1</td> 
+					 <td class='justified'>Url is launched successfully</td> 
+					 <td class='justified'>https://ecommerce-pad-test-1.vip.a.itdev.uk.pri.o2.com/shop/</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:42:53 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-42-52_PM_Url_is_launched_successfully.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectDeviceEcom')">&nbsp;+ selectDeviceEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom1'> 
+					 <td>2</td> 
+					 <td class='justified'>acceptAllCookiesBtn</td> 
+					 <td class='justified'>acceptAllCookiesBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:42:53 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-42-53_PM_acceptAllCookiesBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom2'> 
+					 <td>3</td> 
+					 <td class='justified'>shopLink</td> 
+					 <td class='justified'>shopLinkis in a visible state and moved to the element</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:42:53 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-42-53_PM_shopLink.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom3'> 
+					 <td>4</td> 
+					 <td class='justified'>deviceType</td> 
+					 <td class='justified'>deviceType is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:42:54 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-42-54_PM_deviceType.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom4'> 
+					 <td>5</td> 
+					 <td class='justified'>deviceSearch</td> 
+					 <td class='justified'>Motorola Razr 40 is entered successfully in the text box  - deviceSearch</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:43:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeviceEcom5'> 
+					 <td>6</td> 
+					 <td class='justified'>searchResults</td> 
+					 <td class='justified'>searchResults is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:43:05 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-43-05_PM_searchResults.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectColorCapacityEcom')">&nbsp;+ selectColorCapacityEcom</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1paymentPlanSelectionEcom')">&nbsp;+ paymentPlanSelectionEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom1'> 
+					 <td>7</td> 
+					 <td class='justified'>customisePlan</td> 
+					 <td class='justified'>customisePlan is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:43:45 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-43-45_PM_customisePlan.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom2'> 
+					 <td>8</td> 
+					 <td class='justified'>payInFull</td> 
+					 <td class='justified'>payInFull is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:43:45 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-43-45_PM_payInFull.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom3'> 
+					 <td>9</td> 
+					 <td class='justified'>Expected Device price £799.00</td> 
+					 <td class='justified'>Actual Device price is correct £799.00</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:43:48 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-43-47_PM_Expected_Device_price_£799.00.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom4'> 
+					 <td>10</td> 
+					 <td class='justified'>spreadCost</td> 
+					 <td class='justified'>spreadCost is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:43:48 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-43-48_PM_spreadCost.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom5'> 
+					 <td>11</td> 
+					 <td class='justified'>Maximum upfront is correct £760</td> 
+					 <td class='justified'>Minimum upfront is correct £30</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:43:54 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-43-53_PM_Maximum_upfront_is_correct_£760.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom6'> 
+					 <td>12</td> 
+					 <td class='justified'>Maximum month is correct 36</td> 
+					 <td class='justified'>Minimum month is correct 3</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:43:59 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-43-59_PM_Maximum_month_is_correct_36.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom7'> 
+					 <td>13</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom8'> 
+					 <td>14</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom9'> 
+					 <td>15</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:09 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom10'> 
+					 <td>16</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:11 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom11'> 
+					 <td>17</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:13 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom12'> 
+					 <td>18</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom13'> 
+					 <td>19</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom14'> 
+					 <td>20</td> 
+					 <td class='justified'>First Allowance bundle selected is 1GB</td> 
+					 <td class='justified'>Allowance Price is +
+£19.00†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:44:21 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-44-21_PM_First_Allowance_bundle_selected_is_1GB.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom15'> 
+					 <td>21</td> 
+					 <td class='justified'>increaseAllowance</td> 
+					 <td class='justified'>increaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom16'> 
+					 <td>22</td> 
+					 <td class='justified'>Allowance bundle selected is 5GB</td> 
+					 <td class='justified'>Allowance monthly price is +
+£22.00†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:44:28 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-44-27_PM_Allowance_bundle_selected_is_5GB.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom17'> 
+					 <td>23</td> 
+					 <td class='justified'>increaseAllowance</td> 
+					 <td class='justified'>increaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:31 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom18'> 
+					 <td>24</td> 
+					 <td class='justified'>Allowance bundle selected is 25GB</td> 
+					 <td class='justified'>Allowance monthly price is +
+£25.00†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:44:34 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-44-34_PM_Allowance_bundle_selected_is_25GB.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom19'> 
+					 <td>25</td> 
+					 <td class='justified'>increaseAllowance</td> 
+					 <td class='justified'>increaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom20'> 
+					 <td>26</td> 
+					 <td class='justified'>Allowance bundle selected is 30GB Plus</td> 
+					 <td class='justified'>Allowance monthly price is +
+£27.99†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:44:41 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-44-41_PM_Allowance_bundle_selected_is_30GB_Plus.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom21'> 
+					 <td>27</td> 
+					 <td class='justified'>increaseAllowance</td> 
+					 <td class='justified'>increaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom22'> 
+					 <td>28</td> 
+					 <td class='justified'>Allowance bundle selected is 125GB</td> 
+					 <td class='justified'>Allowance monthly price is +
+£28.00†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:44:47 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-44-47_PM_Allowance_bundle_selected_is_125GB.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom23'> 
+					 <td>29</td> 
+					 <td class='justified'>increaseAllowance</td> 
+					 <td class='justified'>increaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:51 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom24'> 
+					 <td>30</td> 
+					 <td class='justified'>Allowance bundle selected is 150GB Plus</td> 
+					 <td class='justified'>Allowance monthly price is +
+£30.99†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:44:54 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-44-54_PM_Allowance_bundle_selected_is_150GB_Plus.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom25'> 
+					 <td>31</td> 
+					 <td class='justified'>increaseAllowance</td> 
+					 <td class='justified'>increaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:44:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom26'> 
+					 <td>32</td> 
+					 <td class='justified'>Allowance bundle selected is Unlimited</td> 
+					 <td class='justified'>Allowance monthly price is +
+£33.00†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:01 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-01_PM_Allowance_bundle_selected_is_Unlimited.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom27'> 
+					 <td>33</td> 
+					 <td class='justified'>increaseAllowance</td> 
+					 <td class='justified'>increaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:45:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom28'> 
+					 <td>34</td> 
+					 <td class='justified'>Allowance bundle selected is Unlimited Plus</td> 
+					 <td class='justified'>Allowance monthly price is +
+£36.99†</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:07 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-07_PM_Allowance_bundle_selected_is_Unlimited_Plus.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom29'> 
+					 <td>35</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:45:11 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom30'> 
+					 <td>36</td> 
+					 <td class='justified'>decreaseAllowance</td> 
+					 <td class='justified'>decreaseAllowance is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:45:14 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1paymentPlanSelectionEcom31'> 
+					 <td>37</td> 
+					 <td class='justified'>Allowance bundle </td> 
+					 <td class='justified'>Allowance bundle selected is 150GB Plus</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:17 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-17_PM_Allowance_bundle_.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterCustomerDetailsEcom')">&nbsp;+ enterCustomerDetailsEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom1'> 
+					 <td>38</td> 
+					 <td class='justified'>selectPlan</td> 
+					 <td class='justified'>selectPlan is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:18 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-18_PM_selectPlan.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom2'> 
+					 <td>39</td> 
+					 <td class='justified'>Insurance </td> 
+					 <td class='justified'>Insurance is not available</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>20-Oct-2023 12:45:23 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-23_PM_Insurance_.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom3'> 
+					 <td>40</td> 
+					 <td class='justified'>addBasket</td> 
+					 <td class='justified'>addBasket is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:23 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-23_PM_addBasket.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom4'> 
+					 <td>41</td> 
+					 <td class='justified'>checkOutBtn</td> 
+					 <td class='justified'>checkOutBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:34 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-34_PM_checkOutBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom5'> 
+					 <td>42</td> 
+					 <td class='justified'>customerCreateEmail</td> 
+					 <td class='justified'>x0b2uAi9M1fL@yopmail.com is entered successfully in the text box  - customerCreateEmail</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:39 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-39_PM_customerCreateEmail.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom6'> 
+					 <td>43</td> 
+					 <td class='justified'>loginEmail</td> 
+					 <td class='justified'>loginEmail is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:56 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-39_PM_loginEmail.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom7'> 
+					 <td>44</td> 
+					 <td class='justified'>customerPreferredTitle</td> 
+					 <td class='justified'>Mr is entered successfully in the text box  - customerPreferredTitle</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:45:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom8'> 
+					 <td>45</td> 
+					 <td class='justified'>customerFirstName</td> 
+					 <td class='justified'>JohnNArEM is entered successfully in the text box  - customerFirstName</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:57 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-57_PM_customerFirstName.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom9'> 
+					 <td>46</td> 
+					 <td class='justified'>customerLastName</td> 
+					 <td class='justified'>Mcgill is entered successfully in the text box  - customerLastName</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:58 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-58_PM_customerLastName.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom10'> 
+					 <td>47</td> 
+					 <td class='justified'>customerDOB</td> 
+					 <td class='justified'>11/10/1992 is entered successfully in the text box  - customerDOB</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:58 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-58_PM_customerDOB.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom11'> 
+					 <td>48</td> 
+					 <td class='justified'>customerTelephoneNum</td> 
+					 <td class='justified'>07688887766 is entered successfully in the text box  - customerTelephoneNum</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:59 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-59_PM_customerTelephoneNum.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom12'> 
+					 <td>49</td> 
+					 <td class='justified'>customerPostalCode</td> 
+					 <td class='justified'>YO17JF is entered successfully in the text box  - customerPostalCode</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:45:59 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-45-59_PM_customerPostalCode.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterCustomerDetailsEcom13'> 
+					 <td>50</td> 
+					 <td class='justified'>customerFindButton</td> 
+					 <td class='justified'>customerFindButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:00 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-00_PM_customerFindButton.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterAddressDetailsEcom')">&nbsp;+ enterAddressDetailsEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom1'> 
+					 <td>51</td> 
+					 <td class='justified'>addressDropdown</td> 
+					 <td class='justified'>addressDropdown is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:05 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-05_PM_addressDropdown.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom2'> 
+					 <td>52</td> 
+					 <td class='justified'>addressDropdownOptions</td> 
+					 <td class='justified'>addressDropdownOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:10 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-10_PM_addressDropdownOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom3'> 
+					 <td>53</td> 
+					 <td class='justified'>addressCheckbox</td> 
+					 <td class='justified'>addressCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:11 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-11_PM_addressCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterAddressDetailsEcom4'> 
+					 <td>54</td> 
+					 <td class='justified'>addressConfirm</td> 
+					 <td class='justified'>addressConfirm is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:11 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-11_PM_addressConfirm.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1selectDeliveryOptionEcom')">&nbsp;+ selectDeliveryOptionEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1selectDeliveryOptionEcom1'> 
+					 <td>55</td> 
+					 <td class='justified'>confirmDeliveryOption</td> 
+					 <td class='justified'>confirmDeliveryOption is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:21 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-21_PM_confirmDeliveryOption.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1eligibiltyCheckEcom')">&nbsp;+ eligibiltyCheckEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom1'> 
+					 <td>56</td> 
+					 <td class='justified'>timeAtAddress</td> 
+					 <td class='justified'>timeAtAddress is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:28 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-28_PM_timeAtAddress.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom2'> 
+					 <td>57</td> 
+					 <td class='justified'>eligibilityCheckheckOptions</td> 
+					 <td class='justified'>eligibilityCheckheckOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:28 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-28_PM_eligibilityCheckheckOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom3'> 
+					 <td>58</td> 
+					 <td class='justified'>employmentStatus</td> 
+					 <td class='justified'>employmentStatus is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:29 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-28_PM_employmentStatus.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom4'> 
+					 <td>59</td> 
+					 <td class='justified'>eligibilityCheckheckOptions</td> 
+					 <td class='justified'>eligibilityCheckheckOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:29 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-29_PM_eligibilityCheckheckOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom5'> 
+					 <td>60</td> 
+					 <td class='justified'>personalAnnualIncome</td> 
+					 <td class='justified'>personalAnnualIncome is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:29 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-29_PM_personalAnnualIncome.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom6'> 
+					 <td>61</td> 
+					 <td class='justified'>eligibilityCheckheckOptions</td> 
+					 <td class='justified'>eligibilityCheckheckOptions is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:30 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-29_PM_eligibilityCheckheckOptions.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom7'> 
+					 <td>62</td> 
+					 <td class='justified'>EligibilityCheckAgree</td> 
+					 <td class='justified'>EligibilityCheckAgree is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:30 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-30_PM_EligibilityCheckAgree.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom8'> 
+					 <td>63</td> 
+					 <td class='justified'>EligibilityCheckContinue</td> 
+					 <td class='justified'>EligibilityCheckContinue is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:30 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-30_PM_EligibilityCheckContinue.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom9'> 
+					 <td>64</td> 
+					 <td class='justified'>contractInfoButton</td> 
+					 <td class='justified'>contractInfoButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:46:41 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-40_PM_contractInfoButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom10'> 
+					 <td>65</td> 
+					 <td class='justified'>continueButton</td> 
+					 <td class='justified'>continueButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:01 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-46-46_PM_continueButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom11'> 
+					 <td>66</td> 
+					 <td class='justified'>contractInfoButton</td> 
+					 <td class='justified'>contractInfoButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:11 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-47-11_PM_contractInfoButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom12'> 
+					 <td>67</td> 
+					 <td class='justified'>contractCheckbox</td> 
+					 <td class='justified'>contractCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:21 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-47-21_PM_contractCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom13'> 
+					 <td>68</td> 
+					 <td class='justified'>confirmContract</td> 
+					 <td class='justified'>confirmContract is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:22 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-47-21_PM_confirmContract.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1eligibiltyCheckEcom14'> 
+					 <td>69</td> 
+					 <td class='justified'>continueButton</td> 
+					 <td class='justified'>continueButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:27 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-47-27_PM_continueButton.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enterBankDetailsEcom')">&nbsp;+ enterBankDetailsEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom1'> 
+					 <td>70</td> 
+					 <td class='justified'>bankAccountHolder</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - bankAccountHolder</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:47:32 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom2'> 
+					 <td>71</td> 
+					 <td class='justified'>bankAccountNumber</td> 
+					 <td class='justified'>10207136 is entered successfully in the text box  - bankAccountNumber</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:47:33 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom3'> 
+					 <td>72</td> 
+					 <td class='justified'>sortCode</td> 
+					 <td class='justified'>201596 is entered successfully in the text box  - sortCode</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:47:33 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom4'> 
+					 <td>73</td> 
+					 <td class='justified'>validateButton</td> 
+					 <td class='justified'>validateButton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:33 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-47-33_PM_validateButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom5'> 
+					 <td>74</td> 
+					 <td class='justified'>checkBox</td> 
+					 <td class='justified'>checkBox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:39 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-47-39_PM_checkBox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enterBankDetailsEcom6'> 
+					 <td>75</td> 
+					 <td class='justified'>saveContinueBtn</td> 
+					 <td class='justified'>saveContinueBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:47:39 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-47-39_PM_saveContinueBtn.png'></img></td> 
+				 </tr> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('SwitchingtotabInterface')">+ >>> Switching to tab 'Interface' ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='SwitchingtotabInterface' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('SwitchedtotabInterface')">+ >>> Switched to tab 'Interface'!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='SwitchedtotabInterface' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchingtotab1')">+ >>> Switching to tab '1' ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchingtotab1' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Totaltabs2')">+ >>> Total tabs: '2'</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Totaltabs2' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchedtotab1')">+ >>> Switched to tab '1'!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchedtotab1' style='display:table-row-group'> 
+				 <tr class='content' id='Switchedtotab1enterBankDetailsEcom7'> 
+					 <td>1</td> 
+					 <td class='justified'>CardHolderName</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - CardHolderName</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:48:10 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1enterBankDetailsEcom8'> 
+					 <td>2</td> 
+					 <td class='justified'>CardHolderName</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - CardHolderName</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:48:10 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1enterBankDetailsEcom9'> 
+					 <td>3</td> 
+					 <td class='justified'>CardNumber</td> 
+					 <td class='justified'>4929476055899001 is entered successfully in the text box  - CardNumber</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:48:10 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1enterBankDetailsEcom10'> 
+					 <td>4</td> 
+					 <td class='justified'>SecurityCode</td> 
+					 <td class='justified'>472 is entered successfully in the text box  - SecurityCode</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:48:11 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1enterBankDetailsEcom11'> 
+					 <td>5</td> 
+					 <td class='justified'>completePurchase</td> 
+					 <td class='justified'>completePurchase is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:11 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-11_PM_completePurchase.png'></img></td> 
+				 </tr> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchtodefaultcontent')">+ >>> Switch to default content ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchtodefaultcontent' style='display:table-row-group'> 
+				 <tr class='content' id='SwitchtodefaultcontententerBankDetailsEcom12'> 
+					 <td>1</td> 
+					 <td class='justified'>The variable is null</td> 
+					 <td class='justified'>No Frame</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>20-Oct-2023 12:48:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchingtotab0')">+ >>> Switching to tab '0' ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchingtotab0' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Totaltabs1')">+ >>> Total tabs: '1'</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Totaltabs1' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchedtotab0')">+ >>> Switched to tab '0'!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchedtotab0' style='display:table-row-group'> 
+				 <tr class='content' id='Switchedtotab0enterBankDetailsEcom13'> 
+					 <td>1</td> 
+					 <td class='justified'>confirmContinue</td> 
+					 <td class='justified'>confirmContinue is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:17 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-17_PM_confirmContinue.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0enterBankDetailsEcom14'> 
+					 <td>2</td> 
+					 <td class='justified'>continueCreditCheck</td> 
+					 <td class='justified'>continueCreditCheck is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:17 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-17_PM_continueCreditCheck.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Switchedtotab0checkoutOrderEcom')">&nbsp;+ checkoutOrderEcom</td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom1'> 
+					 <td>3</td> 
+					 <td class='justified'>packageNme</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - packageNme</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:23 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-22_PM_packageNme.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom2'> 
+					 <td>4</td> 
+					 <td class='justified'>confirmCreditButtton</td> 
+					 <td class='justified'>confirmCreditButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:28 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-28_PM_confirmCreditButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom3'> 
+					 <td>5</td> 
+					 <td class='justified'>confirmCreditButtton</td> 
+					 <td class='justified'>confirmCreditButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:33 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-33_PM_confirmCreditButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom4'> 
+					 <td>6</td> 
+					 <td class='justified'>notNowBtn</td> 
+					 <td class='justified'>notNowBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:38 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-38_PM_notNowBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom5'> 
+					 <td>7</td> 
+					 <td class='justified'>confirmCreditButtton</td> 
+					 <td class='justified'>confirmCreditButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:39 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-38_PM_confirmCreditButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom6'> 
+					 <td>8</td> 
+					 <td class='justified'>confirmCreditButtton</td> 
+					 <td class='justified'>confirmCreditButtton is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:44 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-44_PM_confirmCreditButtton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom7'> 
+					 <td>9</td> 
+					 <td class='justified'>continueCreditCheck</td> 
+					 <td class='justified'>continueCreditCheck is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:49 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-49_PM_continueCreditCheck.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom8'> 
+					 <td>10</td> 
+					 <td class='justified'>reviewOrder</td> 
+					 <td class='justified'>reviewOrder is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:48:54 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-48-54_PM_reviewOrder.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom9'> 
+					 <td>11</td> 
+					 <td class='justified'>secureCheckout</td> 
+					 <td class='justified'>secureCheckout is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:10 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-10_PM_secureCheckout.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom10'> 
+					 <td>12</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:15 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-15_PM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom11'> 
+					 <td>13</td> 
+					 <td class='justified'>secureCheckout</td> 
+					 <td class='justified'>secureCheckout is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:20 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-20_PM_secureCheckout.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom12'> 
+					 <td>14</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:21 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-20_PM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom13'> 
+					 <td>15</td> 
+					 <td class='justified'>secureCheckout</td> 
+					 <td class='justified'>secureCheckout is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:26 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-26_PM_secureCheckout.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom14'> 
+					 <td>16</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:26 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-26_PM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom15'> 
+					 <td>17</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:27 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-26_PM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom16'> 
+					 <td>18</td> 
+					 <td class='justified'>secureCheckoutCheckbox</td> 
+					 <td class='justified'>secureCheckoutCheckbox is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:27 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-27_PM_secureCheckoutCheckbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom17'> 
+					 <td>19</td> 
+					 <td class='justified'>secureCheckout</td> 
+					 <td class='justified'>secureCheckout is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:32 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-32_PM_secureCheckout.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom18'> 
+					 <td>20</td> 
+					 <td class='justified'>placeOrderAndPay</td> 
+					 <td class='justified'>placeOrderAndPay is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:32 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-32_PM_placeOrderAndPay.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab0checkoutOrderEcom19'> 
+					 <td>21</td> 
+					 <td class='justified'>orderNumEcomm</td> 
+					 <td class='justified'>orderNumEcomm is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>20-Oct-2023 12:49:38 PM</small></td> 
+					 <td><img src='..\Screenshots\EcomADFTScenario_Adft_Ecom_New_Instance1_20-Oct-2023_12-49-38_PM_orderNumEcomm.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Switchedtotab0ecomWarrantyAndDeviceTier')">&nbsp;+ ecomWarrantyAndDeviceTier</td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 7 minute(s), 9 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 75</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 4</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>

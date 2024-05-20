@@ -1,0 +1,64 @@
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 16131
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Exception in thread "pool-1-thread-1" org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 121
+Current browser version is 120.0.6099.227 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'TPOCOGNTASST054', ip: '192.168.29.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF721305E42+3538674]
+	(No symbol) [0x00007FF720F24C02]
+	(No symbol) [0x00007FF720DD5AEB]
+	(No symbol) [0x00007FF720E0C512]
+	(No symbol) [0x00007FF720E0B872]
+	(No symbol) [0x00007FF720E05106]
+	(No symbol) [0x00007FF720E021C8]
+	(No symbol) [0x00007FF720E494B9]
+	(No symbol) [0x00007FF720E3EE53]
+	(No symbol) [0x00007FF720E0F514]
+	(No symbol) [0x00007FF720E10631]
+	GetHandleVerifier [0x00007FF721336CAD+3738973]
+	GetHandleVerifier [0x00007FF72138C506+4089270]
+	GetHandleVerifier [0x00007FF721384823+4057299]
+	GetHandleVerifier [0x00007FF721055C49+720121]
+	(No symbol) [0x00007FF720F3126F]
+	(No symbol) [0x00007FF720F2C304]
+	(No symbol) [0x00007FF720F2C432]
+	(No symbol) [0x00007FF720F1BD04]
+	BaseThreadInitThunk [0x00007FF8359A7344+20]
+	RtlUserThreadStart [0x00007FF835C426B1+33]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.cognizant.framework.selenium.WebDriverFactory.getWebDriver(WebDriverFactory.java:56)
+	at com.cognizant.craft.DriverScript.initializeWebDriver(DriverScript.java:323)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:174)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

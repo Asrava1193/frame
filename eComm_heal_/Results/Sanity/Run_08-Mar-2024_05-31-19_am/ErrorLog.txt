@@ -1,0 +1,760 @@
+Mar 08, 2024 5:31:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [org.slf4j.jul.JULServiceProvider@31a44ed8]
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@659d1b02]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [org.slf4j.jul.JULServiceProvider@31a44ed8]
+Mar 08, 2024 5:32:25 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: user
+Mar 08, 2024 5:32:25 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:32:25 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:32:29 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8571428571428571, value=By.cssSelector: input#username)
+Mar 08, 2024 5:32:37 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: user
+Mar 08, 2024 5:32:37 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:32:37 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:32:38 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8448979591836735, value=By.cssSelector: input#username)
+Mar 08, 2024 5:32:44 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: user
+Mar 08, 2024 5:32:44 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:32:44 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:32:45 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8448979591836735, value=By.cssSelector: input#username)
+Mar 08, 2024 5:32:51 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: user
+Mar 08, 2024 5:32:51 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:32:51 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:32:51 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8448979591836735, value=By.cssSelector: input#username)
+Mar 08, 2024 5:33:44 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: pass
+Mar 08, 2024 5:33:44 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=pass}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:33:44 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:33:44 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8571428571428571, value=By.cssSelector: input#password)
+Mar 08, 2024 5:33:52 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: pass
+Mar 08, 2024 5:33:52 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=pass}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:33:52 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:33:53 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.84, value=By.cssSelector: input#password)
+Mar 08, 2024 5:34:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: pass
+Mar 08, 2024 5:34:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=pass}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:34:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:34:00 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.84, value=By.cssSelector: input#password)
+Mar 08, 2024 5:34:07 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: pass
+Mar 08, 2024 5:34:07 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#pass"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=pass}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:34:07 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:34:08 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.84, value=By.cssSelector: input#password)
+Mar 08, 2024 5:35:29 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: (//a[contains(text(),'Quick Create')])
+Mar 08, 2024 5:35:29 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Quick Create')])"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=(//a[contains(text(),'Quick Create')])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:35:29 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:37:05 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8714285714285714, value=By.cssSelector: a#gen_menu_3)
+Mar 08, 2024 5:39:49 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: email
+Mar 08, 2024 5:39:49 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:39:49 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:39:49 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8571428571428571, value=By.cssSelector: input#mail)
+Mar 08, 2024 5:40:16 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: email
+Mar 08, 2024 5:40:16 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:40:16 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:40:17 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8357142857142857, value=By.cssSelector: input#mail)
+Mar 08, 2024 5:40:20 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: email
+Mar 08, 2024 5:40:20 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:40:20 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:40:21 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8357142857142857, value=By.cssSelector: input#mail)
+Mar 08, 2024 5:40:23 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: email
+Mar 08, 2024 5:40:23 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:40:23 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:40:23 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8357142857142857, value=By.cssSelector: input#mail)
+Mar 08, 2024 5:40:25 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: email
+Mar 08, 2024 5:40:25 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:40:25 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:40:26 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8357142857142857, value=By.cssSelector: input#mail)
+Mar 08, 2024 5:40:59 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input
+Mar 08, 2024 5:40:59 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:40:59 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:40:59 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.6457267356703447, value=By.cssSelector: input.other-btn)
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.6457267356703447, value=By.cssSelector: input.other-btn)
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:00 AM com.epam.healenium.client.RestClient imitate
+WARNING: [Selector Imitate] Error during call. Message: java.io.IOException: chunked transfer encoding, state: READING_LENGTH, Exception: {}
+java.io.UncheckedIOException: java.io.IOException: chunked transfer encoding, state: READING_LENGTH
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:442)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+	at com.epam.healenium.client.RestClient.imitate(RestClient.java:235)
+	at com.epam.healenium.processor.ImitateProcessor.execute(ImitateProcessor.java:38)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:42)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.handlers.proxy.BaseHandler.findElement(BaseHandler.java:63)
+	at com.epam.healenium.handlers.proxy.SelfHealingProxyInvocationHandler.invoke(SelfHealingProxyInvocationHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy3.findElement(Unknown Source)
+	at com.cognizant.framework.VMOReusableLibrary.enterText(VMOReusableLibrary.java:237)
+	at pages.CsrdAdftPage.residentialAccountPage(CsrdAdftPage.java:323)
+	at businesscomponents.CsrdAdftComponent.residentialAccountPage(CsrdAdftComponent.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.cognizant.craft.DriverScript.invokeBusinessComponent(DriverScript.java:852)
+	at com.cognizant.craft.DriverScript.executeTestcase(DriverScript.java:797)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:752)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:204)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:186)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:178)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: chunked transfer encoding, state: READING_LENGTH
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:351)
+	at java.net.http/jdk.internal.net.http.Http1Response$BodyReader.onReadError(Http1Response.java:760)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	... 3 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
+
+Mar 08, 2024 5:41:00 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.6457267356703447, value=By.cssSelector: input.other-btn)
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.6457267356703447, value=By.cssSelector: input.other-btn)
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.6457267356703447, value=By.cssSelector: input.other-btn)
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:06 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.6457267356703447, value=By.cssSelector: input.other-btn)
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8, value=By.cssSelector: div.form-data > div.form-group:nth-child(1))
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:12 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.7591836734693878, value=By.cssSelector: div.form-data)
+Mar 08, 2024 5:41:17 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input
+Mar 08, 2024 5:41:17 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:17 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:18 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8784808174281858, value=By.cssSelector: html > body > div:nth-child(20) > div:nth-child(2) > div > div > div > div > div > div > div > div > div:nth-child(2) > div > div:nth-child(3) > div > form > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-child(2) > div > table > tbody > tr > td:nth-child(2) > div > div > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > input)
+Mar 08, 2024 5:41:18 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input
+Mar 08, 2024 5:41:18 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:18 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:18 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8784808174281858, value=By.cssSelector: html > body > div:nth-child(20) > div:nth-child(2) > div > div > div > div > div > div > div > div > div:nth-child(2) > div > div:nth-child(3) > div > form > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > table > tbody > tr > td:nth-child(2) > div > div > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > input)
+Mar 08, 2024 5:41:24 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Birth')]//input
+Mar 08, 2024 5:41:24 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@id,'ui-id')]//td[contains(@title,'Birth')]//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[contains(@id,'ui-id')]//td[contains(@title,'Birth')]//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:24 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:24 AM com.epam.healenium.handlers.proxy.BaseHandler findElement
+WARNING: Error during findElement: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElements {using=css selector, value=input#9134309035813188137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:363)
+	at com.epam.healenium.service.HealingService.toLocator(HealingService.java:89)
+	at com.epam.healenium.service.HealingService.lambda$findNewLocations$0(HealingService.java:68)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.epam.healenium.service.HealingService.findNewLocations(HealingService.java:70)
+	at com.epam.healenium.processor.HealingProcessor.execute(HealingProcessor.java:39)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:42)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.handlers.proxy.BaseHandler.findElement(BaseHandler.java:63)
+	at com.epam.healenium.handlers.proxy.SelfHealingProxyInvocationHandler.invoke(SelfHealingProxyInvocationHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy3.findElement(Unknown Source)
+	at com.cognizant.framework.VMOReusableLibrary.enterText(VMOReusableLibrary.java:234)
+	at pages.CsrdAdftPage.residentialAccountPage(CsrdAdftPage.java:334)
+	at businesscomponents.CsrdAdftComponent.residentialAccountPage(CsrdAdftComponent.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.cognizant.craft.DriverScript.invokeBusinessComponent(DriverScript.java:852)
+	at com.cognizant.craft.DriverScript.executeTestcase(DriverScript.java:797)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:752)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:204)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:186)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:178)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Mar 08, 2024 5:41:29 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //*[@title='Address Lookup']
+Mar 08, 2024 5:41:29 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='Address Lookup']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//*[@title='Address Lookup']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:29 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:29 AM com.epam.healenium.processor.ImitateProcessor validate
+WARNING: New element locators have not been found.
+Score property = 0.6 is bigger than healing's locator score
+Mar 08, 2024 5:41:40 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[text()='Postcode']/following-sibling::div//input
+Mar 08, 2024 5:41:40 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Postcode']/following-sibling::div//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[text()='Postcode']/following-sibling::div//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:40 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:40 AM com.epam.healenium.handlers.proxy.BaseHandler findElement
+WARNING: Error during findElement: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElements {using=css selector, value=input#9134256876313157625}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:363)
+	at com.epam.healenium.service.HealingService.toLocator(HealingService.java:89)
+	at com.epam.healenium.service.HealingService.lambda$findNewLocations$0(HealingService.java:68)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.epam.healenium.service.HealingService.findNewLocations(HealingService.java:70)
+	at com.epam.healenium.processor.HealingProcessor.execute(HealingProcessor.java:39)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:42)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.handlers.proxy.BaseHandler.findElement(BaseHandler.java:63)
+	at com.epam.healenium.handlers.proxy.SelfHealingProxyInvocationHandler.invoke(SelfHealingProxyInvocationHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy3.findElement(Unknown Source)
+	at com.cognizant.framework.VMOReusableLibrary.enterText(VMOReusableLibrary.java:234)
+	at pages.CsrdAdftPage.residentialAccountPage(CsrdAdftPage.java:338)
+	at businesscomponents.CsrdAdftComponent.residentialAccountPage(CsrdAdftComponent.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.cognizant.craft.DriverScript.invokeBusinessComponent(DriverScript.java:852)
+	at com.cognizant.craft.DriverScript.executeTestcase(DriverScript.java:797)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:752)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:204)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:186)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:178)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Mar 08, 2024 5:41:45 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //div[text()='Building Name/Number']/following-sibling::div//input
+Mar 08, 2024 5:41:45 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Building Name/Number']/following-sibling::div//input"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//div[text()='Building Name/Number']/following-sibling::div//input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:45 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:45 AM com.epam.healenium.handlers.proxy.BaseHandler findElement
+WARNING: Error during findElement: 
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElements {using=css selector, value=input#9134256876313157625}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:363)
+	at com.epam.healenium.service.HealingService.toLocator(HealingService.java:89)
+	at com.epam.healenium.service.HealingService.lambda$findNewLocations$0(HealingService.java:68)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.epam.healenium.service.HealingService.findNewLocations(HealingService.java:70)
+	at com.epam.healenium.processor.HealingProcessor.execute(HealingProcessor.java:39)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:42)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.handlers.proxy.BaseHandler.findElement(BaseHandler.java:63)
+	at com.epam.healenium.handlers.proxy.SelfHealingProxyInvocationHandler.invoke(SelfHealingProxyInvocationHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy3.findElement(Unknown Source)
+	at com.cognizant.framework.VMOReusableLibrary.enterText(VMOReusableLibrary.java:234)
+	at pages.CsrdAdftPage.residentialAccountPage(CsrdAdftPage.java:340)
+	at businesscomponents.CsrdAdftComponent.residentialAccountPage(CsrdAdftComponent.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.cognizant.craft.DriverScript.invokeBusinessComponent(DriverScript.java:852)
+	at com.cognizant.craft.DriverScript.executeTestcase(DriverScript.java:797)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:752)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:204)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:186)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:178)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Mar 08, 2024 5:41:51 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //button[text()='Address Lookup']
+Mar 08, 2024 5:41:51 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Address Lookup']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//button[text()='Address Lookup']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:41:51 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:41:51 AM com.epam.healenium.processor.ImitateProcessor validate
+WARNING: New element locators have not been found.
+Score property = 0.6 is bigger than healing's locator score
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //*[text()='Confirm Address']
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Confirm Address']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//*[text()='Confirm Address']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8527047208064822, value=By.cssSelector: button.nc-search-button.button_action_id_9157841961513652200_9153182517713217855.gwt-Button.parctrl-submit-form-button.TableCtrl-button)
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: //*[text()='Confirm Address']
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Confirm Address']"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=//*[text()='Confirm Address']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:42:27 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8241332922350536, value=By.cssSelector: button.nc-search-button.button_action_id_9157841961513652200_9153182517713217855.gwt-Button.parctrl-submit-form-button.TableCtrl-button)
+Mar 08, 2024 5:42:33 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.xpath: (//input[@type='checkbox'])[2]
+Mar 08, 2024 5:42:33 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@type='checkbox'])[2]"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f9629586eb3ba9f83a45fc5b680c42, findElement {using=xpath, value=(//input[@type='checkbox'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59387/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44f9629586eb3ba9f83a45fc5b680c42
+Mar 08, 2024 5:42:33 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 08, 2024 5:42:33 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8035714285714286, value=By.cssSelector: html > body > div:nth-child(20) > div:nth-child(2) > div > div > div > div > div > div > div > div > div:nth-child(2) > div > div:nth-child(3) > div > form > table > tbody > tr > td > table > tbody > tr:nth-child(3) > td:nth-child(2) > div > table > tbody > tr > td:nth-child(2) > div > div > table > tbody > tr > td > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > input)

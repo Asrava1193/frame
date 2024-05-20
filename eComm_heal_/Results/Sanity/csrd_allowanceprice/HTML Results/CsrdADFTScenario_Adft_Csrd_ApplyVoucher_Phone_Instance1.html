@@ -1,0 +1,750 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>ADFT End to End - CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+			 th.perfColor { 
+				 color: darkorchid; 
+			 } 
+
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 ADFT End to End - CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;16-Oct-2023&nbsp;02:19:01&nbsp;PM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplicationCSRD')">&nbsp;+ invokeApplicationCSRD</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplicationCSRD1'> 
+					 <td>1</td> 
+					 <td class='justified'>Url is launched successfully</td> 
+					 <td class='justified'>https://toms-pad-test-1.vip.a.itdev.uk.pri.o2.com</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:19:15 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-19-15_PM_Url_is_launched_successfully.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1loginToCSRD')">&nbsp;+ loginToCSRD</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD1'> 
+					 <td>2</td> 
+					 <td class='justified'>LAN ID</td> 
+					 <td class='justified'>uattestuser1 is entered successfully in the text box  - LAN ID</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD2'> 
+					 <td>3</td> 
+					 <td class='justified'>Password</td> 
+					 <td class='justified'>Changepassword23# is entered successfully in the text box  - Password</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:19:17 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-19-16_PM_Password.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD3'> 
+					 <td>4</td> 
+					 <td class='justified'>Login Button</td> 
+					 <td class='justified'>Login Button is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enteringMail')">&nbsp;+ enteringMail</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enteringMail1'> 
+					 <td>5</td> 
+					 <td class='justified'>Customer creation</td> 
+					 <td class='justified'>Customer</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:19:30 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-19-30_PM_Customer_creation.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enteringMail2'> 
+					 <td>6</td> 
+					 <td class='justified'>emailBox</td> 
+					 <td class='justified'>Pn_06_DnFW_5450@example.com is entered successfully in the text box  - emailBox</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:19:36 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-19-36_PM_emailBox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enteringMail3'> 
+					 <td>7</td> 
+					 <td class='justified'>continue Button</td> 
+					 <td class='justified'>continue Button is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:36 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1residentialAccountPage')">&nbsp;+ residentialAccountPage</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage1'> 
+					 <td>8</td> 
+					 <td class='justified'>firstNameField</td> 
+					 <td class='justified'>JohnXLlSV is entered successfully in the text box  - firstNameField</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage2'> 
+					 <td>9</td> 
+					 <td class='justified'>lastNameField</td> 
+					 <td class='justified'>McgillpCtjH is entered successfully in the text box  - lastNameField</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage3'> 
+					 <td>10</td> 
+					 <td class='justified'>mobileContainer</td> 
+					 <td class='justified'>mobileContainer is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage4'> 
+					 <td>11</td> 
+					 <td class='justified'>mandatoryFiled</td> 
+					 <td class='justified'>07584215840 is entered successfully in the text box  - mandatoryFiled</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage5'> 
+					 <td>12</td> 
+					 <td class='justified'>yearDDInCalender</td> 
+					 <td class='justified'>11/10/1999 is entered successfully in the text box  - yearDDInCalender</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage6'> 
+					 <td>13</td> 
+					 <td class='justified'>addAddressButton</td> 
+					 <td class='justified'>addAddressButton is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage7'> 
+					 <td>14</td> 
+					 <td class='justified'>postCodeField</td> 
+					 <td class='justified'>CT157PD is entered successfully in the text box  - postCodeField</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage8'> 
+					 <td>15</td> 
+					 <td class='justified'>bldngNumField</td> 
+					 <td class='justified'>254 is entered successfully in the text box  - bldngNumField</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage9'> 
+					 <td>16</td> 
+					 <td class='justified'>addressLookUpBtn</td> 
+					 <td class='justified'>addressLookUpBtn is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:19:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage10'> 
+					 <td>17</td> 
+					 <td class='justified'>cnfrmAddressBtn</td> 
+					 <td class='justified'>cnfrmAddressBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:19:55 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-19-55_PM_cnfrmAddressBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage11'> 
+					 <td>18</td> 
+					 <td class='justified'>checkbox</td> 
+					 <td class='justified'>checkbox is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage12'> 
+					 <td>19</td> 
+					 <td class='justified'>createBtn</td> 
+					 <td class='justified'>createBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:20:05 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-20-05_PM_createBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1createBillingAccount')">&nbsp;+ createBillingAccount</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount1'> 
+					 <td>20</td> 
+					 <td class='justified'>billingAcct</td> 
+					 <td class='justified'>billingAcct is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount2'> 
+					 <td>21</td> 
+					 <td class='justified'>newBillingAccountButton</td> 
+					 <td class='justified'>newBillingAccountButton is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount3'> 
+					 <td>22</td> 
+					 <td class='justified'>createAcct</td> 
+					 <td class='justified'>createAcct is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:32 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount4'> 
+					 <td>23</td> 
+					 <td class='justified'>confirmAcct</td> 
+					 <td class='justified'>confirmAcct is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:20:38 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-20-37_PM_confirmAcct.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount5'> 
+					 <td>24</td> 
+					 <td class='justified'>paymentInstrument</td> 
+					 <td class='justified'>paymentInstrument is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount6'> 
+					 <td>25</td> 
+					 <td class='justified'>sortCode</td> 
+					 <td class='justified'>201596 is entered successfully in the text box  - sortCode</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:48 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount7'> 
+					 <td>26</td> 
+					 <td class='justified'>bankAccountNumber</td> 
+					 <td class='justified'>10207136 is entered successfully in the text box  - bankAccountNumber</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount8'> 
+					 <td>27</td> 
+					 <td class='justified'>bankAccountName</td> 
+					 <td class='justified'>Default is entered successfully in the text box  - bankAccountName</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:20:49 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-20-49_PM_bankAccountName.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount9'> 
+					 <td>28</td> 
+					 <td class='justified'>createPaymentInstrument</td> 
+					 <td class='justified'>createPaymentInstrument is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:20:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount10'> 
+					 <td>29</td> 
+					 <td class='justified'>confirmPaymentInstrument</td> 
+					 <td class='justified'>confirmPaymentInstrument is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:20:50 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-20-49_PM_confirmPaymentInstrument.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount11'> 
+					 <td>30</td> 
+					 <td class='justified'>setupPayment</td> 
+					 <td class='justified'>setupPayment is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:21:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1createBillingAccount12'> 
+					 <td>31</td> 
+					 <td class='justified'>setupPayment</td> 
+					 <td class='justified'>setupPayment is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:21:05 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-21-05_PM_setupPayment.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1placingOrder')">&nbsp;+ placingOrder</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1placingOrder1'> 
+					 <td>32</td> 
+					 <td class='justified'>placeOrder</td> 
+					 <td class='justified'>placeOrder is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:21:10 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1placingOrder2'> 
+					 <td>33</td> 
+					 <td class='justified'>distributionChanel</td> 
+					 <td class='justified'>Voice and IVR is entered successfully in the text box  - distributionChanel</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:21:21 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1placingOrder3'> 
+					 <td>34</td> 
+					 <td class='justified'>campaignInput</td> 
+					 <td class='justified'>Customer Service is entered successfully in the text box  - campaignInput</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:21:36 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-21-36_PM_campaignInput.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1placingOrder4'> 
+					 <td>35</td> 
+					 <td class='justified'>createNewOrder</td> 
+					 <td class='justified'>createNewOrder is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:21:42 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-21-41_PM_createNewOrder.png'></img></td> 
+				 </tr> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchingtotabiframeroe')">+ >>> Switching to tab 'iframe_roe' ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchingtotabiframeroe' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchedtotabiframeroe')">+ >>> Switched to tab 'iframe_roe'!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchedtotabiframeroe' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('SwitchedtotabiframeroevalidateDevicePrice')">&nbsp;+ validateDevicePrice</td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice1'> 
+					 <td>1</td> 
+					 <td class='justified'>deviceType</td> 
+					 <td class='justified'>deviceType is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:22:07 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-22-07_PM_deviceType.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice2'> 
+					 <td>2</td> 
+					 <td class='justified'>nextButton</td> 
+					 <td class='justified'>nextButtonis in a visible state and moved to the element</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:22:13 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice3'> 
+					 <td>3</td> 
+					 <td class='justified'>nextButton</td> 
+					 <td class='justified'>nextButton is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:22:13 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice4'> 
+					 <td>4</td> 
+					 <td class='justified'>addEquipment</td> 
+					 <td class='justified'>addEquipment is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:22:39 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-22-39_PM_addEquipment.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice5'> 
+					 <td>5</td> 
+					 <td class='justified'>deviceSearch</td> 
+					 <td class='justified'>deviceSearch is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:22:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice6'> 
+					 <td>6</td> 
+					 <td class='justified'>deviceSearch</td> 
+					 <td class='justified'>iPhone 14 Plus 512GB Blue is entered successfully in the text box  - deviceSearch</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:22:45 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-22-45_PM_deviceSearch.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice7'> 
+					 <td>7</td> 
+					 <td class='justified'>Expected Device price £1,220.21</td> 
+					 <td class='justified'>Actual Device price is incorrect £1,287.29</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>16-Oct-2023 02:22:50 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-22-50_PM_Expected_Device_price_£1,220.21.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateDevicePrice8'> 
+					 <td>8</td> 
+					 <td class='justified'>deviceName</td> 
+					 <td class='justified'>deviceName is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:22:51 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-22-51_PM_deviceName.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('SwitchedtotabiframeroevalidateAllowanceAndCCA')">&nbsp;+ validateAllowanceAndCCA</td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA1'> 
+					 <td>9</td> 
+					 <td class='justified'>Sale type </td> 
+					 <td class='justified'>Sale type selected is Custom Plan with full upfront payment</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:23:06 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-23-06_PM_Sale_type_.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA2'> 
+					 <td>10</td> 
+					 <td class='justified'>btn_ok</td> 
+					 <td class='justified'>btn_ok is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:23:07 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-23-06_PM_btn_ok.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA3'> 
+					 <td>11</td> 
+					 <td class='justified'>nextButton</td> 
+					 <td class='justified'>nextButtonis in a visible state and moved to the element</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:23:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA4'> 
+					 <td>12</td> 
+					 <td class='justified'>nextButton</td> 
+					 <td class='justified'>nextButton is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:23:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA5'> 
+					 <td>13</td> 
+					 <td class='justified'>allowancePriceLink</td> 
+					 <td class='justified'>allowancePriceLink is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:24:24 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-24-24_PM_allowancePriceLink.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA6'> 
+					 <td>14</td> 
+					 <td class='justified'>Allowance bundle</td> 
+					 <td class='justified'>All Allowance Price</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:24:34 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-24-34_PM_Allowance_bundle.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA7'> 
+					 <td>15</td> 
+					 <td class='justified'>allowanceClose</td> 
+					 <td class='justified'>allowanceClose is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:24:35 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-24-34_PM_allowanceClose.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA8'> 
+					 <td>16</td> 
+					 <td class='justified'>Allowance bundle is 150GB Plus, Unlimited UK Minutes, Unlimited UK Texts</td> 
+					 <td class='justified'>allowance bundle selected</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:24:45 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA9'> 
+					 <td>17</td> 
+					 <td class='justified'>Expected Allowance price is £30.00</td> 
+					 <td class='justified'>Actual Allowance price is incorrect£31.99</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>16-Oct-2023 02:24:45 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-24-45_PM_Expected_Allowance_price_is_£30.00.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA10'> 
+					 <td>18</td> 
+					 <td class='justified'>Allowance bundle </td> 
+					 <td class='justified'>Allowance bundle selected </td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:25:10 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-10_PM_Allowance_bundle_.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA11'> 
+					 <td>19</td> 
+					 <td class='justified'>btn_show</td> 
+					 <td class='justified'>btn_show is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:25:11 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-11_PM_btn_show.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA12'> 
+					 <td>20</td> 
+					 <td class='justified'>Voucher</td> 
+					 <td class='justified'>Voucher is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:25:31 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-31_PM_Voucher.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA13'> 
+					 <td>21</td> 
+					 <td class='justified'>VoucherAdd</td> 
+					 <td class='justified'>VoucherAdd is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:25:36 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-36_PM_VoucherAdd.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA14'> 
+					 <td>22</td> 
+					 <td class='justified'>VoucherCode</td> 
+					 <td class='justified'>NColX724 is entered successfully in the text box  - VoucherCode</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:25:39 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-39_PM_VoucherCode.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA15'> 
+					 <td>23</td> 
+					 <td class='justified'>apply</td> 
+					 <td class='justified'>apply is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:25:44 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-44_PM_apply.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA16'> 
+					 <td>24</td> 
+					 <td class='justified'>voucher</td> 
+					 <td class='justified'>voucher is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>16-Oct-2023 02:25:49 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-49_PM_voucher.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA17'> 
+					 <td>25</td> 
+					 <td class='justified'>Error</td> 
+					 <td class='justified'>no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='roe-widget-content']//td[@class='roe-table-cell mrc summaryTotalBold']"}
+  (Session info: chrome=118.0.5993.71)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'TPOCOGNTASST057', ip: '10.173.171.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\loharv\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1908484ef2fe94c1a789beafb3364c2
+*** Element info: {Using=xpath, value=//div[@class='roe-widget-content']//td[@class='roe-table-cell mrc summaryTotalBold']}</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>16-Oct-2023 02:25:55 PM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_ApplyVoucher_Phone_Instance1_16-Oct-2023_02-25-55_PM_Error.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='SwitchedtotabiframeroevalidateAllowanceAndCCA18'> 
+					 <td>26</td> 
+					 <td class='justified'>CRAFT Info</td> 
+					 <td class='justified'>Test case iteration terminated by user! Proceeding to next iteration (if applicable)...</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>16-Oct-2023 02:25:56 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 6 minute(s), 54 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 28</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 3</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>

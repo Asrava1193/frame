@@ -1,0 +1,16 @@
+Mar 05, 2024 4:17:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [org.slf4j.jul.JULServiceProvider@2dfcca39]
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@6f6b7d6e]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [org.slf4j.jul.JULServiceProvider@2dfcca39]
+Exception in thread "pool-1-thread-1" java.lang.ClassCastException: class java.lang.NoSuchMethodError cannot be cast to class java.lang.Exception (java.lang.NoSuchMethodError and java.lang.Exception are in module java.base of loader 'bootstrap')
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:755)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:204)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:186)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:178)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)

@@ -1,0 +1,36 @@
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [org.slf4j.jul.JULServiceProvider@9c7f7ad]
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@64c45101]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [org.slf4j.jul.JULServiceProvider@9c7f7ad]
+Feb 28, 2024 6:58:36 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: username
+Feb 28, 2024 6:58:36 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=121.0.6167.189)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8409c4ed192d0211b0c6c13d373f4d5c, findElement {value=username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.189, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59774/devtoo..., se:cdpVersion: 121.0.6167.189, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8409c4ed192d0211b0c6c13d373f4d5c
+Feb 28, 2024 6:58:36 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Exception in thread "pool-1-thread-1" java.lang.NoSuchMethodError: 'org.jsoup.nodes.Element org.jsoup.nodes.Document.root()'
+	at com.epam.healenium.treecomparing.JsoupHTMLParser.parse(JsoupHTMLParser.java:25)
+	at com.epam.healenium.SelfHealingEngine.parseTree(SelfHealingEngine.java:144)
+	at com.epam.healenium.processor.HealingProcessor.execute(HealingProcessor.java:35)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:42)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.processor.BaseProcessor.process(BaseProcessor.java:50)
+	at com.epam.healenium.handlers.proxy.BaseHandler.findElement(BaseHandler.java:63)
+	at com.epam.healenium.handlers.proxy.SelfHealingProxyInvocationHandler.invoke(SelfHealingProxyInvocationHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy3.findElement(Unknown Source)
+	at com.cognizant.framework.selenium.WebDriverFactory.getSelfHealingDriver(WebDriverFactory.java:116)
+	at com.cognizant.craft.DriverScript.initializeWebDriver(DriverScript.java:325)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:175)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)

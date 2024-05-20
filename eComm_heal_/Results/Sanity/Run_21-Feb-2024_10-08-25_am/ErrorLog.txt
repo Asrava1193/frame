@@ -1,0 +1,5 @@
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [org.slf4j.jul.JULServiceProvider@38bad8ce]
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@3f161bf9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [org.slf4j.jul.JULServiceProvider@38bad8ce]

@@ -1,0 +1,142 @@
+05:11:43 Started by user Sujatha Ravichandran
+05:11:43 Running as SYSTEM
+05:11:43 [EnvInject] - Loading node environment variables.
+05:11:43 [EnvInject] - Preparing an environment for the build.
+05:11:43 [EnvInject] - Keeping Jenkins system variables.
+05:11:43 [EnvInject] - Keeping Jenkins build variables.
+05:11:43 [EnvInject] - Injecting contributions.
+05:11:43 Building in workspace /var/jenkins_home/workspace/ATP2/SSP VG Activation@2
+05:11:43 [WS-CLEANUP] Deleting project workspace...
+05:11:43 [WS-CLEANUP] Deferred wipeout is used...
+05:11:43 [WS-CLEANUP] Done
+05:11:43 Run condition [Numerical comparison] enabling prebuild for step [BuilderChain]
+05:11:43 Run condition [Numerical comparison] enabling prebuild for step [BuilderChain]
+05:11:43 No emails were triggered.
+05:11:43 [EnvInject] - Mask passwords that will be passed as build parameters.
+05:11:43 Numerical comparison: [0] == Equal to [1]
+05:11:43 Run condition [Numerical comparison] preventing perform for step [BuilderChain]
+05:11:43 Numerical comparison: [0] == Equal to [0]
+05:11:43 Run condition [Numerical comparison] enabling perform for step [BuilderChain]
+05:11:43 [2m[ATP2 RUNNER][INFO]    - START B
+05:11:43 [2m[ATP2 RUNNER][INFO]    - Creating Execution Request from Advanced Configuration(Parameterized Execution Requ
+05:11:43 [2m[ATP2 RUNNER][INFO]    - Configuration Paramete
+05:11:43 [ATP2 RUNNER][WARNING] - No match was found in init builder for the parameter name TEST_CASE with the parameter list: ENVIRONMENTS, TA_TOOLS_GROUP, MAIL, THREAD_COUNT, TEST_PLAN, LABEL_TEMPLATE, MAIL_TEMPLATE, FLAGS FILTER_BY_LABELS.
+05:11:43 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name TEST_PLAN with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+05:11:43 [2m[ATP2 RUNNER][INFO]    - EXECUTE REQUEST:: ExecuteRequest{name='ATP2/SSP VG Activation-10049', testCaseIds=[0e2e11b5-1cba-4edc-8996-aa74c1da7ae3], testScopeId='null', environmentIds=[9bd81bbf-d645-4cb8-96dc-4fce3538eff7], emailRecipients=[], emailTemplateId=null, emailSubject='null', taToolIds=[c0f44230-80fa-460b-a747-0d98a13bf7f7], threadCount=1, projectId='ce70504b-011e-481d-b3b6-d644667cc058', testPlanId='149f7de8-2be3-48c5-a52f-527e27ab8120', labelTemplateId='null', widgetConfigTemplateId='null', contextVariables={Executor=sujatha.ravichandran@netcracker.com, bss_ticket=Sanity, voucher_type=-------------, build_number=10049}, executePrerequisites=true, executeExecution=true, executeValidation=true, autoSyncCasesWithJira=false, autoSyncRunsWithJira=false, autoSyncRunsWithJira=false, mandatoryCheck=false, flags=[], filterLabels
+05:11:43 [2m[ATP2 RUNNER][INFO]    - GET EXECUTION REQUEST I
+05:11:43 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name TA_TOOLS_GROUP with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+05:11:43 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name ENVIRONMENTS with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+05:11:43 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name CONTEXT_VARIABLES with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+05:11:43 [2m[ATP2 RUNNER][INFO]    - Execution Requests Id:: [fa3f7be6-63e7-4389-86e8-c1d15ff94
+05:11:43 [2m[ATP2 RUNNER][INFO]    - https://atp-catalogue-atp2.apps.ocp-bssdev.itdev.uk.pri.o2.com/project/ce70504b-011e-481d-b3b6-d644667cc058/ram/execution-request/fa3f7be6-63e7-4389-86e8-c1d15ff9
+05:12:13 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:12:43 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:13:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:13:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:14:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:14:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:15:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:15:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:16:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:16:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:17:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:17:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:18:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:18:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:19:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:19:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:20:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:20:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:21:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:21:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:22:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:22:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:23:14 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [In Progr
+05:23:44 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [fa3f7be6-63e7-4389-86e8-c1d15ff94868] - EXECUTION STATUS:: [Finis
+05:23:44 [2m[ATP2 RUNNER][INFO]    - File '/var/jenkins_home/workspace/ATP2/SSP VG Activation@2/fa3f7be6-63e7-4389-86e8-c1d15ff94868_test_runs_statistics.json' has been successfully wri
+05:23:44 [2m[ATP2 RUNNER][INFO]    - FailedRat
+05:23:44 [2m[ATP2 RUNNER][INFO]    - WarningRate:
+05:23:44 [2m[ATP2 RUNNER][INFO]    - PassedRat
+05:23:50 [2m[ATP2 RUNNER][INFO]    - File '/var/jenkins_home/workspace/ATP2/SSP VG Activation@2/2023-03-08_05_23_45_External_E2E1_test_data.zip' has been successfully wri
+05:23:50 [2m[ATP2 RUNNER][INFO]    - END B
+05:23:50 [SSP VG Activation@2] $ /bin/sh /tmp/jenkins6250519628941259311.sh
+05:23:50 => Unpacking test data ...
+05:23:50 Archive:  2023-03-08_05_23_45_External_E2E1_test_data.zip
+05:23:50   inflating: [NC R6 BSS E2E GiffGaff (Ameet)]  real MSISDN  + pSIM.csv  
+05:23:50   inflating: PAYM4 SO_Processed.csv  
+05:23:50   inflating: Vanilla_SO.csv          
+05:23:50   inflating: [AT][POC&AM] ALL SKU Validation ivalid.csv  
+05:23:50   inflating: Real MSISDN+SIM pairs.csv  
+05:23:50   inflating: Useful_Scripts.csv      
+05:23:50   inflating: [ SWAP MSISDN - Don’t touch].csv  
+05:23:50   inflating: Actual_Number_Of_SIMS.csv  
+05:23:50   inflating: olne_test.csv           
+05:23:50   inflating: [NC][R6][E2E1]Real psim.csv  
+05:23:50   inflating: Tesco_TD.csv            
+05:23:50   inflating: [NC][R6]E2E1] UDB physical r10 sims.csv  
+05:23:50   inflating: [NC][E2E1] new dummy sims.csv  
+05:23:50   inflating: [AT][POC] Offering Validation.csv  
+05:23:50   inflating: [NC R6 BSS E2E] dummy MSISDNs.csv  
+05:23:50   inflating: RCA.csv                 
+05:23:50   inflating: AD_SO_Processed.csv     
+05:23:50   inflating: O2 SO.csv               
+05:23:50   inflating: Sim_Only_Plan_Checking_Device_In_POC_AND_AM.csv  
+05:23:50   inflating: RCA+SO Pega.csv         
+05:23:50   inflating: SSP_RCA.csv             
+05:23:50   inflating: [O2UK][GG][R6][SHAIKH][Ameet] - dont touch only for gg execution .csv  
+05:23:50   inflating: [AT][POC&AM] SKU Validation invalid.csv  
+05:23:50   inflating: [Mig][R6] Real pSIM - Migration.csv  
+05:23:50   inflating: Device1.csv             
+05:23:50   inflating: SIMO+CCA.csv            
+05:23:50   inflating: [NC R6 BSS E2E GiffGaff (Ameet)] dummy pSIM.csv  
+05:23:50   inflating: Sanity_SO.csv           
+05:23:50   inflating: [R6][E2E1][CR 1141] real psims.csv  
+05:23:50   inflating: RCA_PremiumHome.csv     
+05:23:50   inflating: [GiffGaff][E2E][Service validation][5 Physical sim][06_02_2023][do not touch].csv  
+05:23:50   inflating: Naming.csv              
+05:23:50   inflating: [O2UK][GG][5 NETWORK SIMS][Ameet].csv  
+05:23:50   inflating: [NC R6 BSS E2E GiffGaff (Ameet)] dummy eSIM.csv  
+05:23:50   inflating: [NC R6 BSS E2E] dummy ICCIDs.csv  
+05:23:50   inflating: POA.csv                 
+05:23:50   inflating: SSP_Bill_Generation.csv  
+05:23:50   inflating: [AT][POC&AM] Initial Devices.csv  
+05:23:50   inflating: SO_Processed.csv        
+05:23:50   inflating: [AT][POC&AM] ALL Initial Device.csv  
+05:23:50   inflating: IMEI in FMiP.csv        
+05:23:50   inflating: [Mig][R6] Real MSISDN - Migration.csv  
+05:23:50   inflating: [O2UK][R6][E2E1][Tesco][Ameet] - do not touch.csv  
+05:23:50   inflating: Sanity_RCA.csv          
+05:23:50   inflating: SO.csv                  
+05:23:50   inflating: Generic Vouchers_AT.csv  
+05:23:50   inflating: Generic Vouchers.csv    
+05:23:50   inflating: [AT][POC&AM] ALL SKU Validation valid.csv  
+05:23:50   inflating: [NC R6 BSS E2E GiffGaff (Ameet)] dummy MSISDN.csv  
+05:23:50   inflating: [NTT R6 BSS E2E1] dummy pSIM.csv  
+05:23:50   inflating: [SSP Portal E2E1] dummy MSISDN + pSIM.csv  
+05:23:50   inflating: IVR_SO.csv              
+05:23:50   inflating: Test_.csv               
+05:23:50   inflating: [NTT R6 BSS E2E1] dummy MSISDNs.csv  
+05:23:50   inflating: [NC][E2E1] new dummy MSISDNs.csv  
+05:23:50   inflating: SSP_SO.csv              
+05:23:50   inflating: [[NC R6 BSS E2E PAYM CR] Ericsson Real pSIM_TESCO Provisioning.csv  
+05:23:50   inflating: [SSP E2E1] dummy MSISDN.csv  
+05:23:50   inflating: [NC R6 BSS E2E Giffgaff(Ameet)] dummy MSISDN(IMEI).csv  
+05:23:50   inflating: [AT][POC&AM] SKU Validation valid.csv  
+05:23:50   inflating: Golden_Set_SO.csv       
+05:23:50   inflating: [GiffGaff][E2E][150 Physical sim]_Ameet_DONOTOUCH.csv  
+05:23:50   inflating: NETWORK teams real MSISDN & SIM - DONT use.csv  
+05:23:50   inflating: Xstore_IMEI.csv         
+05:23:50   inflating: [SSP E2E1] dummy pSIM.csv  
+05:23:50 => Looking for matches by parameters ...
+05:23:50 Test data file: SSP_SO.csv
+05:23:50 Test data type: VG11
+05:23:50 Created by: sujatha.ravichandran@netcracker.com
+05:23:50 Build number: 10049
+05:23:50 Search result:
+05:23:50 | CREATED_WHEN: 2023-03-08 05:15:39.0 | Email: ncssptest+240319971226@gmail.com | Status SO: Processed | Customer_link: 4166012675560825147 | Customer Name: Mrs Jennavecia Weidler | BSS Ticket: Sanity | Build number: 10049 | Order ID: 4166116774460139430 | Order Number: NC85893 | Billing Account: 12398689176 | CustomerRef: 119660023053 | MSISDN: 07107350526 |
+05:23:50 Evaluated macro: '#10049-External_E2E1-VG11'
+05:23:50 Setting build name to '#10049-External_E2E1-VG11'
+05:23:50 Email was triggered for: Success
+05:23:50 Sending email for trigger: Success
+05:23:50 Sending email to: sujatha.ravichandran@netcracker.com
+05:23:51 Finished: SUCCESS

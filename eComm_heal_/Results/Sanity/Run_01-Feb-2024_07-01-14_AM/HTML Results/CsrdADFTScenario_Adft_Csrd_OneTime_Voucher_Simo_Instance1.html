@@ -1,0 +1,487 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>ADFT End to End - CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+			 th.perfColor { 
+				 color: darkorchid; 
+			 } 
+
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 ADFT End to End - CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;01-Feb-2024&nbsp;07:01:17&nbsp;AM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplicationCSRD')">&nbsp;+ invokeApplicationCSRD</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplicationCSRD1'> 
+					 <td>1</td> 
+					 <td class='justified'>Url is launched successfully</td> 
+					 <td class='justified'>https://toms-pad-conf-2.vip.a.itdev.uk.pri.o2.com/index.jsp</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:01:25 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-01-24_AM_Url_is_launched_successfully.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1loginToCSRD')">&nbsp;+ loginToCSRD</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD1'> 
+					 <td>2</td> 
+					 <td class='justified'>LAN ID</td> 
+					 <td class='justified'>uattestuser1 is entered successfully in the text box  - LAN ID</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>01-Feb-2024 07:01:25 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD2'> 
+					 <td>3</td> 
+					 <td class='justified'>Password</td> 
+					 <td class='justified'>Changepassword23# is entered successfully in the text box  - Password</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:01:26 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-01-25_AM_Password.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD3'> 
+					 <td>4</td> 
+					 <td class='justified'>Login Button</td> 
+					 <td class='justified'>Login Button is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>01-Feb-2024 07:01:32 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1voucherManagement')">&nbsp;+ voucherManagement</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1voucherManagement1'> 
+					 <td>5</td> 
+					 <td class='justified'>list of NC modules</td> 
+					 <td class='justified'>list of NC modules is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:01:37 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-01-37_AM_list_of_NC_modules.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1voucherManagement2'> 
+					 <td>6</td> 
+					 <td class='justified'>VoucherMngmnt</td> 
+					 <td class='justified'>VoucherMngmnt is visible</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:01:47 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-01-47_AM_VoucherMngmnt.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1voucherManagement3'> 
+					 <td>7</td> 
+					 <td class='justified'>VoucherMngmnt</td> 
+					 <td class='justified'>VoucherMngmnt is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:01:48 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-01-47_AM_VoucherMngmnt.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1newDiscountVoucher')">&nbsp;+ newDiscountVoucher</td> 
+				 </tr> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchingtotab1')">+ >>> Switching to tab '1' ...</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchingtotab1' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Totaltabs2')">+ >>> Total tabs: '2'</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Totaltabs2' style='display:table-row-group'> 
+			 </tbody>			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Switchedtotab1')">+ >>> Switched to tab '1'!</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Switchedtotab1' style='display:table-row-group'> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher1'> 
+					 <td>1</td> 
+					 <td class='justified'>VoucherSpecs</td> 
+					 <td class='justified'>VoucherSpecs is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:01:59 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-01-59_AM_VoucherSpecs.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher2'> 
+					 <td>2</td> 
+					 <td class='justified'>NewVoucherSpec</td> 
+					 <td class='justified'>NewVoucherSpec is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:02:05 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-05_AM_NewVoucherSpec.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher3'> 
+					 <td>3</td> 
+					 <td class='justified'>Type</td> 
+					 <td class='justified'>Type is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:02:11 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-10_AM_Type.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher4'> 
+					 <td>4</td> 
+					 <td class='justified'>Type</td> 
+					 <td class='justified'>Error: Cannot locate element with text: One- Time Voucher
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'TPOCOGNTASST054', ip: '10.173.171.171', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: driver.version: unknown</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>01-Feb-2024 07:02:16 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-16_AM_Type.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher5'> 
+					 <td>5</td> 
+					 <td class='justified'>NameBox</td> 
+					 <td class='justified'>Voucher Airtime Discount 19.97%_2023_P2P_12M SIMO is entered successfully in the text box  - NameBox</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:02:27 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-27_AM_NameBox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher6'> 
+					 <td>6</td> 
+					 <td class='justified'>NDstartdate</td> 
+					 <td class='justified'>Feb 01, 2024 is entered successfully in the text box  - NDstartdate</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:02:33 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-33_AM_NDstartdate.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher7'> 
+					 <td>7</td> 
+					 <td class='justified'>description</td> 
+					 <td class='justified'>description is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:02:43 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-43_AM_description.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher8'> 
+					 <td>8</td> 
+					 <td class='justified'>NDenddate</td> 
+					 <td class='justified'>Feb 08, 2024 is entered successfully in the text box  - NDenddate</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:02:49 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-49_AM_NDenddate.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher9'> 
+					 <td>9</td> 
+					 <td class='justified'>ActionOffering</td> 
+					 <td class='justified'>Voucher Airtime Discount 19.97%_2023_P2P_12M SIMO is entered successfully in the text box  - ActionOffering</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:02:55 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-02-55_AM_ActionOffering.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher10'> 
+					 <td>10</td> 
+					 <td class='justified'>Amount</td> 
+					 <td class='justified'>50 is entered successfully in the text box  - Amount</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:03:06 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-03-06_AM_Amount.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher11'> 
+					 <td>11</td> 
+					 <td class='justified'>plussign</td> 
+					 <td class='justified'>plussign is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>01-Feb-2024 07:03:11 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher12'> 
+					 <td>12</td> 
+					 <td class='justified'>plussign</td> 
+					 <td class='justified'>plussign is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>01-Feb-2024 07:03:17 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher13'> 
+					 <td>13</td> 
+					 <td class='justified'>PlusSign</td> 
+					 <td class='justified'>PlusSign is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>01-Feb-2024 07:03:22 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher14'> 
+					 <td>14</td> 
+					 <td class='justified'>Create</td> 
+					 <td class='justified'>Create is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>01-Feb-2024 07:03:27 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1newDiscountVoucher15'> 
+					 <td>15</td> 
+					 <td class='justified'>New Discount Voucher</td> 
+					 <td class='justified'>Discount Voucher  is created</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:03:32 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-03-32_AM_New_Discount_Voucher.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Switchedtotab1standAloneVoucher')">&nbsp;+ standAloneVoucher</td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1standAloneVoucher1'> 
+					 <td>16</td> 
+					 <td class='justified'>StandaloneVoucher</td> 
+					 <td class='justified'>StandaloneVoucher is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:03:36 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-03-35_AM_StandaloneVoucher.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1standAloneVoucher2'> 
+					 <td>17</td> 
+					 <td class='justified'>NewStandaloneVoucher</td> 
+					 <td class='justified'>NewStandaloneVoucher is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:03:41 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-03-41_AM_NewStandaloneVoucher.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1standAloneVoucher3'> 
+					 <td>18</td> 
+					 <td class='justified'>NSNameBox</td> 
+					 <td class='justified'>Voucher Airtime Discount 19.97%_2023_P2P_12M SIMO is entered successfully in the text box  - NSNameBox</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:03:47 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-03-47_AM_NSNameBox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1standAloneVoucher4'> 
+					 <td>19</td> 
+					 <td class='justified'>DiscountVoucherSpec</td> 
+					 <td class='justified'>Voucher Airtime Discount 19.97%_2023_P2P_12M SIMO is entered successfully in the text box  - DiscountVoucherSpec</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:03:53 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-03-53_AM_DiscountVoucherSpec.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1standAloneVoucher5'> 
+					 <td>20</td> 
+					 <td class='justified'>SerialNumber</td> 
+					 <td class='justified'>NCacV514 is entered successfully in the text box  - SerialNumber</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>01-Feb-2024 07:04:01 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-04-00_AM_SerialNumber.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1standAloneVoucher6'> 
+					 <td>21</td> 
+					 <td class='justified'>Error</td> 
+					 <td class='justified'>The specified file "C:/CraftAdft/UnifiedAutomationAccelerate/src/test/resources/Datatables/CsrdADFTScenario.xls" does not exist!</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>01-Feb-2024 07:04:06 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_OneTime_Voucher_Simo_Instance1_01-Feb-2024_07-04-06_AM_Error.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Switchedtotab1standAloneVoucher7'> 
+					 <td>22</td> 
+					 <td class='justified'>CRAFT Info</td> 
+					 <td class='justified'>Test case iteration terminated by user! Proceeding to next iteration (if applicable)...</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>01-Feb-2024 07:04:06 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 2 minute(s), 49 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 20</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 2</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>

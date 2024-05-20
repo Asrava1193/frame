@@ -1,0 +1,23 @@
+Mar 04, 2024 6:40:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [org.slf4j.jul.JULServiceProvider@557ac8b7]
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@7f4bf4e9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [org.slf4j.jul.JULServiceProvider@557ac8b7]
+Mar 04, 2024 6:40:40 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: username
+Mar 04, 2024 6:40:40 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [182f31771f6db620c9f23bde5135eebd, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55267/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 182f31771f6db620c9f23bde5135eebd
+Mar 04, 2024 6:40:40 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 04, 2024 6:40:41 AM com.epam.healenium.processor.SaveHealingResultsProcessor enrichHealingResult
+WARNING: Using healed locator: Scored(score=0.8571428571428571, value=By.cssSelector: html > body > div:nth-child(2) > div > div > div:nth-child(4) > form > div > div:nth-child(1) > div:nth-child(2) > input)

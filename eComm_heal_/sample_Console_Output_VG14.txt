@@ -1,0 +1,129 @@
+10:28:46 Started by user Eduard Kostenko
+10:28:46 Running as SYSTEM
+10:28:46 [EnvInject] - Loading node environment variables.
+10:28:46 [EnvInject] - Preparing an environment for the build.
+10:28:46 [EnvInject] - Keeping Jenkins system variables.
+10:28:46 [EnvInject] - Keeping Jenkins build variables.
+10:28:46 [EnvInject] - Injecting contributions.
+10:28:46 Building in workspace /var/jenkins_home/workspace/ATP2/SSP VG Activation
+10:28:46 [WS-CLEANUP] Deleting project workspace...
+10:28:46 [WS-CLEANUP] Deferred wipeout is used...
+10:28:46 [WS-CLEANUP] Done
+10:28:46 Run condition [Numerical comparison] enabling prebuild for step [BuilderChain]
+10:28:46 Run condition [Numerical comparison] enabling prebuild for step [BuilderChain]
+10:28:46 No emails were triggered.
+10:28:46 [EnvInject] - Mask passwords that will be passed as build parameters.
+10:28:46 Numerical comparison: [0] == Equal to [1]
+10:28:46 Run condition [Numerical comparison] preventing perform for step [BuilderChain]
+10:28:46 Numerical comparison: [0] == Equal to [0]
+10:28:46 Run condition [Numerical comparison] enabling perform for step [BuilderChain]
+10:28:46 [2m[ATP2 RUNNER][INFO]    - START B
+10:28:46 [2m[ATP2 RUNNER][INFO]    - Creating Execution Request from Advanced Configuration(Parameterized Execution Requ
+10:28:46 [2m[ATP2 RUNNER][INFO]    - Configuration Paramete
+10:28:46 [ATP2 RUNNER][WARNING] - No match was found in init builder for the parameter name TEST_CASE with the parameter list: ENVIRONMENTS, TA_TOOLS_GROUP, MAIL, THREAD_COUNT, TEST_PLAN, LABEL_TEMPLATE, MAIL_TEMPLATE, FLAGS FILTER_BY_LABELS.
+10:28:46 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name TEST_PLAN with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+10:28:46 [2m[ATP2 RUNNER][INFO]    - EXECUTE REQUEST:: ExecuteRequest{name='ATP2/SSP VG Activation-10067', testCaseIds=[ab2a00db-e04c-432c-8c0f-1c7bffda8487], testScopeId='null', environmentIds=[5ae97d19-4246-4104-97e6-da2a57b03a34], emailRecipients=[], emailTemplateId=null, emailSubject='null', taToolIds=[c0f44230-80fa-460b-a747-0d98a13bf7f7], threadCount=1, projectId='ce70504b-011e-481d-b3b6-d644667cc058', testPlanId='149f7de8-2be3-48c5-a52f-527e27ab8120', labelTemplateId='null', widgetConfigTemplateId='null', contextVariables={Executor=, bss_ticket=, voucher_type=-------------, build_number=10067}, executePrerequisites=true, executeExecution=true, executeValidation=true, autoSyncCasesWithJira=false, autoSyncRunsWithJira=false, autoSyncRunsWithJira=false, mandatoryCheck=false, flags=[], filterLabels
+10:28:46 [2m[ATP2 RUNNER][INFO]    - GET EXECUTION REQUEST I
+10:28:46 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name TA_TOOLS_GROUP with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+10:28:46 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name ENVIRONMENTS with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+10:28:46 [ATP2 RUNNER][WARNING] - No match was found in create execution order for the parameter name CONTEXT_VARIABLES with the parameter list: TEST_SCOPE, TEST_CASE, LABEL, FOLDER.
+10:28:46 [2m[ATP2 RUNNER][INFO]    - Execution Requests Id:: [f4e0f45f-0ad2-401f-91be-fa85dad3a
+10:28:46 [2m[ATP2 RUNNER][INFO]    - https://atp-catalogue-atp2.apps.ocp-bssdev.itdev.uk.pri.o2.com/project/ce70504b-011e-481d-b3b6-d644667cc058/ram/execution-request/f4e0f45f-0ad2-401f-91be-fa85dad3
+10:29:16 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:29:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:30:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:30:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:31:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:31:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:32:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:32:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:33:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:33:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:34:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:34:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:35:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:35:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:36:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:36:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:37:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:37:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:38:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:38:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:39:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:39:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:40:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:40:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:41:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:41:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:42:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:42:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:43:17 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:43:47 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:44:18 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:44:48 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [In Progr
+10:45:18 [2m[ATP2 RUNNER][INFO]    - EXECUTION REQUEST with ID:: [f4e0f45f-0ad2-401f-91be-fa85dad3a962] - EXECUTION STATUS:: [Finis
+10:45:18 [2m[ATP2 RUNNER][INFO]    - File '/var/jenkins_home/workspace/ATP2/SSP VG Activation/f4e0f45f-0ad2-401f-91be-fa85dad3a962_test_runs_statistics.json' has been successfully wri
+10:45:18 [2m[ATP2 RUNNER][INFO]    - FailedRat
+10:45:18 [2m[ATP2 RUNNER][INFO]    - WarningRate:
+10:45:18 [2m[ATP2 RUNNER][INFO]    - PassedRat
+10:45:21 [2m[ATP2 RUNNER][INFO]    - File '/var/jenkins_home/workspace/ATP2/SSP VG Activation/2023-03-08_10_45_18_External_E2E3_test_data.zip' has been successfully wri
+10:45:21 [2m[ATP2 RUNNER][INFO]    - END B
+10:45:21 [SSP VG Activation] $ /bin/sh /tmp/jenkins7338653098307285041.sh
+10:45:21 => Unpacking test data ...
+10:45:21 Archive:  2023-03-08_10_45_18_External_E2E3_test_data.zip
+10:45:21   inflating: [SSP E2E3] dummy MSISDN.csv  
+10:45:21   inflating: [NC External PAYM4 UAT1 test team (Yuliia)] Dummy pSIM.csv  
+10:45:21   inflating: [AT][POC&AM] SKU Validation valid.csv  
+10:45:21   inflating: Email.csv               
+10:45:21   inflating: [AT][POC] Offering Validation.csv  
+10:45:21   inflating: Watches.csv             
+10:45:21   inflating: [NTT External test team] real MSISDN + pSIM.csv  
+10:45:21   inflating: appleIMEI.csv           
+10:45:21   inflating: eSIM.csv                
+10:45:21   inflating: [NC][golden regression][Dummy SIMs and MSISDNS].csv  
+10:45:21   inflating: [NC External TDM team] dummy pSIM.csv  
+10:45:21   inflating: Naming.csv              
+10:45:21   inflating: [SSP E2E3] dummy pSIM.csv  
+10:45:21   inflating: [SSP Portal E2E3] dummy MSISDN + psim_OLD-DONOT USE.csv  
+10:45:21   inflating: [AT][POC&AM] Initial Devices.csv  
+10:45:21   inflating: [AT][POC&AM] SKU Validation invalid.csv  
+10:45:21   inflating: [AT][POC&AM] ALL SKU Validation valid.csv  
+10:45:21   inflating: SO.csv                  
+10:45:21   inflating: IMEI_for_SBE.csv        
+10:45:21   inflating: iPad.csv                
+10:45:21   inflating: E2E_3_Mig_Cust_OCSValid.csv  
+10:45:21   inflating: [AT][POC&AM] ALL Initial Device.csv  
+10:45:21   inflating: SIM_Real.csv            
+10:45:21   inflating: E2E_3_MIG_Cust.csv      
+10:45:21   inflating: IphoneIMEI-2.csv        
+10:45:21   inflating: Sanity_SO.csv           
+10:45:21   inflating: SSP_Bill_Generation.csv  
+10:45:21   inflating: Device1.csv             
+10:45:21   inflating: R4.01 E2E & UAT Real R10 - Ericsson SIMs and MSISDNs.csv  
+10:45:21   inflating: SO_Processed.csv        
+10:45:21   inflating: RCA.csv                 
+10:45:21   inflating: Sanity_RCA.csv          
+10:45:21   inflating: cleanup_test.csv        
+10:45:21   inflating: Xstore_IMEI.csv         
+10:45:21   inflating: SSP_SO.csv              
+10:45:21   inflating: eid.csv                 
+10:45:21   inflating: MPN_Real.csv            
+10:45:21   inflating: Stabilization team real MSISDN + sims.csv  
+10:45:21   inflating: SSP_RCA.csv             
+10:45:21   inflating: [AT][POC&AM] ALL SKU Validation ivalid.csv  
+10:45:21   inflating: [NC External PAYM4 UAT1 test team (Yuliia)] Dummy MSISDN.csv  
+10:45:21   inflating: Test_table.csv          
+10:45:21   inflating: MPN_Dummy.csv           
+10:45:21 => Looking for matches by parameters ...
+10:45:21 Test data file: SSP_SO.csv
+10:45:21 Test data type: VG14
+10:45:21 Created by: 
+10:45:21 Build number: 10067
+10:45:21 Search result:
+10:45:21 | CREATED_WHEN: 2023-03-08 10:33:04.0 | Email: ncssptest+240619716635@gmail.com | Status SO: Processed | Customer_link: 3166117293110351371 | Customer Name: Mrs Tariah Fowlkes | BSS Ticket:  | Build number: 10067 | Order ID: 3166118678110496057 | Order Number: NC6269397831 | Billing Account: 45346729279 | CustomerRef: 48796941286 | MSISDN: 07107349621 |
+10:45:21 Evaluated macro: '#10067-External_E2E3-VG14'
+10:45:21 Setting build name to '#10067-External_E2E3-VG14'
+10:45:21 Email was triggered for: Success
+10:45:21 Sending email for trigger: Success
+10:45:21 An attempt to send an e-mail to empty list of recipients, ignored.
+10:45:21 Finished: SUCCESS

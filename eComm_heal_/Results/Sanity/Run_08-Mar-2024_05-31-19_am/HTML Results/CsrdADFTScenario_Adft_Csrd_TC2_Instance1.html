@@ -1,0 +1,526 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>ADFT End to End - CsrdADFTScenario_Adft_Csrd_TC2_Instance1 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+			 th.perfColor { 
+				 color: darkorchid; 
+			 } 
+
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 ADFT End to End - CsrdADFTScenario_Adft_Csrd_TC2_Instance1 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;08-Mar-2024&nbsp;05:31:22&nbsp;AM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;HEALENIUM&nbsp;on&nbsp;windows</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplicationCSRD')">&nbsp;+ invokeApplicationCSRD</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplicationCSRD1'> 
+					 <td>1</td> 
+					 <td class='justified'>Url is launched successfully</td> 
+					 <td class='justified'>https://toms-pad-test-1.vip.a.itdev.uk.pri.o2.com</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>08-Mar-2024 05:31:39 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-31-39_AM_Url_is_launched_successfully.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1loginToCSRD')">&nbsp;+ loginToCSRD</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD1'> 
+					 <td>2</td> 
+					 <td class='justified'>LAN ID</td> 
+					 <td class='justified'>uattestuser1 is entered successfully in the text box  - LAN ID</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>08-Mar-2024 05:32:58 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD2'> 
+					 <td>3</td> 
+					 <td class='justified'>Password</td> 
+					 <td class='justified'>Changepassword23# is entered successfully in the text box  - Password</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>08-Mar-2024 05:34:20 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-34-14_AM_Password.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1loginToCSRD3'> 
+					 <td>4</td> 
+					 <td class='justified'>Login Button</td> 
+					 <td class='justified'>Login Button is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>08-Mar-2024 05:34:36 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1enteringMail')">&nbsp;+ enteringMail</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enteringMail1'> 
+					 <td>5</td> 
+					 <td class='justified'>Customer creation</td> 
+					 <td class='justified'>Customer</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>08-Mar-2024 05:38:09 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-38-09_AM_Customer_creation.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enteringMail2'> 
+					 <td>6</td> 
+					 <td class='justified'>By.id: email</td> 
+					 <td class='justified'>By.id: emailis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:39:24 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-39-22_AM_By.id:_email.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enteringMail3'> 
+					 <td>7</td> 
+					 <td class='justified'>emailBox</td> 
+					 <td class='justified'>PS_67_Xdvs_5464@example.com is entered successfully in the text box  - emailBox</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>08-Mar-2024 05:40:30 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-40-28_AM_emailBox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1enteringMail4'> 
+					 <td>8</td> 
+					 <td class='justified'>continue Button</td> 
+					 <td class='justified'>continue Button is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>08-Mar-2024 05:40:38 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1residentialAccountPage')">&nbsp;+ residentialAccountPage</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage1'> 
+					 <td>9</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Title')]//select</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Title')]//selectis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:40:54 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-40-53_AM_By.xpath:_//div[contains(@id,'ui-id')]//td[contains(@title,'Title')]//select.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage2'> 
+					 <td>10</td> 
+					 <td class='justified'>titleFieldDD</td> 
+					 <td class='justified'>Error: Cannot invoke "com.cognizant.framework.selenium.CraftDriver.getWebDriver()" because "this.driver" is null</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:40:54 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-40-54_AM_titleFieldDD.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage3'> 
+					 <td>11</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//input</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'First Name')]//inputis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:40:59 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-40-59_AM_By.xpath:_//div[contains(@id,'ui-id')]//td[contains(@title,'First_Name')]//input.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage4'> 
+					 <td>12</td> 
+					 <td class='justified'>firstNameField</td> 
+					 <td class='justified'>firstNameField is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:00 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-00_AM_firstNameField.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage5'> 
+					 <td>13</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//input</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Last Name')]//inputis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:06 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-05_AM_By.xpath:_//div[contains(@id,'ui-id')]//td[contains(@title,'Last_Name')]//input.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage6'> 
+					 <td>14</td> 
+					 <td class='justified'>lastNameField</td> 
+					 <td class='justified'>lastNameField is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:06 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-06_AM_lastNameField.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage7'> 
+					 <td>15</td> 
+					 <td class='justified'>By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div</td> 
+					 <td class='justified'>By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/divis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:12 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-11_AM_By.xpath:_//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage8'> 
+					 <td>16</td> 
+					 <td class='justified'>mobileContainer</td> 
+					 <td class='justified'>mobileContainer is clicked Successfully</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>08-Mar-2024 05:41:12 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage9'> 
+					 <td>17</td> 
+					 <td class='justified'>By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input</td> 
+					 <td class='justified'>By.xpath: //select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/inputis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:17 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-17_AM_By.xpath:_//select[@class='jbss_list_box']/parent::td/following-sibling::td[1]/div/input.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage10'> 
+					 <td>18</td> 
+					 <td class='justified'>mandatoryFiled</td> 
+					 <td class='justified'>mandatoryFiledis not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:18 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-18_AM_mandatoryFiled.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage11'> 
+					 <td>19</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Birth')]//input</td> 
+					 <td class='justified'>By.xpath: //div[contains(@id,'ui-id')]//td[contains(@title,'Birth')]//inputis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:24 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-24_AM_By.xpath:_//div[contains(@id,'ui-id')]//td[contains(@title,'Birth')]//input.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage12'> 
+					 <td>20</td> 
+					 <td class='justified'>yearDDInCalender</td> 
+					 <td class='justified'>yearDDInCalender is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:24 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-24_AM_yearDDInCalender.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage13'> 
+					 <td>21</td> 
+					 <td class='justified'>By.xpath: //*[@title='Address Lookup']</td> 
+					 <td class='justified'>By.xpath: //*[@title='Address Lookup']is not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:29 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-29_AM_By.xpath:_//*[@title='Address_Lookup'].png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage14'> 
+					 <td>22</td> 
+					 <td class='justified'>addAddressButton</td> 
+					 <td class='justified'>addAddressButton is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:29 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-29_AM_addAddressButton.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage15'> 
+					 <td>23</td> 
+					 <td class='justified'>By.xpath: //div[text()='Postcode']/following-sibling::div//input</td> 
+					 <td class='justified'>By.xpath: //div[text()='Postcode']/following-sibling::div//inputis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:40 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-39_AM_By.xpath:_//div[text()='Postcode']/following-sibling::div//input.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage16'> 
+					 <td>24</td> 
+					 <td class='justified'>postCodeField</td> 
+					 <td class='justified'>postCodeField is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:40 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-40_AM_postCodeField.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage17'> 
+					 <td>25</td> 
+					 <td class='justified'>By.xpath: //div[text()='Building Name/Number']/following-sibling::div//input</td> 
+					 <td class='justified'>By.xpath: //div[text()='Building Name/Number']/following-sibling::div//inputis not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:45 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-45_AM_By.xpath:_//div[text()='Building_Name/Number']/following-sibling::div//input.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage18'> 
+					 <td>26</td> 
+					 <td class='justified'>bldngNumField</td> 
+					 <td class='justified'>bldngNumField is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:45 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-45_AM_bldngNumField.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage19'> 
+					 <td>27</td> 
+					 <td class='justified'>By.xpath: //button[text()='Address Lookup']</td> 
+					 <td class='justified'>By.xpath: //button[text()='Address Lookup']is not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:51 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-50_AM_By.xpath:_//button[text()='Address_Lookup'].png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage20'> 
+					 <td>28</td> 
+					 <td class='justified'>addressLookUpBtn</td> 
+					 <td class='justified'>addressLookUpBtn is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:41:51 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-41-51_AM_addressLookUpBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage21'> 
+					 <td>29</td> 
+					 <td class='justified'>By.xpath: //select[@class='gwt-ListBox nc-field-list-value nc-field-container']</td> 
+					 <td class='justified'>By.xpath: //select[@class='gwt-ListBox nc-field-list-value nc-field-container']is not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:42:21 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-21_AM_By.xpath:_//select[@class='gwt-ListBox_nc-field-list-value_nc-field-container'].png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage22'> 
+					 <td>30</td> 
+					 <td class='justified'>addressDropdown</td> 
+					 <td class='justified'>Error: Cannot invoke "com.cognizant.framework.selenium.CraftDriver.getWebDriver()" because "this.driver" is null</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:42:21 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-21_AM_addressDropdown.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage23'> 
+					 <td>31</td> 
+					 <td class='justified'>By.xpath: //*[text()='Confirm Address']</td> 
+					 <td class='justified'>By.xpath: //*[text()='Confirm Address']is not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:42:27 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-26_AM_By.xpath:_//*[text()='Confirm_Address'].png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage24'> 
+					 <td>32</td> 
+					 <td class='justified'>cnfrmAddressBtn</td> 
+					 <td class='justified'>cnfrmAddressBtn is clicked Successfully</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>08-Mar-2024 05:42:28 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-27_AM_cnfrmAddressBtn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage25'> 
+					 <td>33</td> 
+					 <td class='justified'>By.xpath: (//input[@type='checkbox'])[2]</td> 
+					 <td class='justified'>By.xpath: (//input[@type='checkbox'])[2]is not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:42:33 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-33_AM_By.xpath:_(//input[@type='checkbox'])[2].png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage26'> 
+					 <td>34</td> 
+					 <td class='justified'>checkbox</td> 
+					 <td class='justified'>checkbox is not in a visible and in a clickable state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:42:33 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-33_AM_checkbox.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage27'> 
+					 <td>35</td> 
+					 <td class='justified'>By.xpath: (//button[contains(text(),'Create')])[2]</td> 
+					 <td class='justified'>By.xpath: (//button[contains(text(),'Create')])[2]is not in a visible state</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:42:53 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-53_AM_By.xpath:_(//button[contains(text(),'Create')])[2].png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage28'> 
+					 <td>36</td> 
+					 <td class='justified'>Error</td> 
+					 <td class='justified'>Cannot invoke "com.cognizant.framework.selenium.CraftDriver.getWebDriver()" because "this.driver" is null</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>08-Mar-2024 05:42:54 AM</small></td> 
+					 <td><img src='..\Screenshots\CsrdADFTScenario_Adft_Csrd_TC2_Instance1_08-Mar-2024_05-42-53_AM_Error.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1residentialAccountPage29'> 
+					 <td>37</td> 
+					 <td class='justified'>CRAFT Info</td> 
+					 <td class='justified'>Test case iteration terminated by user! Proceeding to next iteration (if applicable)...</td> 
+					 <td class='done'>DONE</td> 
+					 <td><small>08-Mar-2024 05:42:54 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 11 minute(s), 32 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 5</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 27</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>

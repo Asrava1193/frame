@@ -1,0 +1,91 @@
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 25798
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 01, 2024 6:55:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'TPOCOGNTASST054', ip: '10.173.171.171', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1413c6297e19c5721a51bf4cb38164e9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.cognizant.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:83)
+	at com.cognizant.framework.Report.handleStepInvolvingScreenshot(Report.java:462)
+	at com.cognizant.framework.Report.updateTestLog(Report.java:349)
+	at com.cognizant.framework.VMOReusableLibrary.craftFluentWait(VMOReusableLibrary.java:84)
+	at pages.CsrdAdftPage.loginCSRD(CsrdAdftPage.java:283)
+	at businesscomponents.CreationOfVoucherComponent.loginToCSRD(CreationOfVoucherComponent.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.cognizant.craft.DriverScript.invokeBusinessComponent(DriverScript.java:840)
+	at com.cognizant.craft.DriverScript.executeTestcase(DriverScript.java:785)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:740)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:203)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:185)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:177)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.140)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'TPOCOGNTASST054', ip: '10.173.171.171', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1413c6297e19c5721a51bf4cb38164e9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.cognizant.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:83)
+	at com.cognizant.framework.Report.handleStepInvolvingScreenshot(Report.java:462)
+	at com.cognizant.framework.Report.updateTestLog(Report.java:349)
+	at com.cognizant.craft.DriverScript.exceptionHandler(DriverScript.java:864)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:744)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:203)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:185)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:177)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-1-thread-1" com.cognizant.framework.FrameworkException: Error while capturing the screenshot
+	at com.cognizant.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:87)
+	at com.cognizant.framework.Report.handleStepInvolvingScreenshot(Report.java:462)
+	at com.cognizant.framework.Report.updateTestLog(Report.java:349)
+	at com.cognizant.craft.DriverScript.exceptionHandler(DriverScript.java:864)
+	at com.cognizant.craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:744)
+	at com.cognizant.craft.DriverScript.executeCraft(DriverScript.java:203)
+	at com.cognizant.craft.DriverScript.executeCraftOrCraftLite(DriverScript.java:185)
+	at com.cognizant.craft.DriverScript.driveTestExecution(DriverScript.java:177)
+	at allocator.ParallelRunner.run(ParallelRunner.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

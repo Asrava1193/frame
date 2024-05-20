@@ -1,0 +1,26 @@
+Mar 07, 2024 9:22:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [org.slf4j.jul.JULServiceProvider@7c19b831]
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@5a651fa8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [org.slf4j.jul.JULServiceProvider@7c19b831]
+Mar 07, 2024 9:22:24 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Failed to find an element using locator By.id: email
+Mar 07, 2024 9:22:24 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Reason: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=122.0.6261.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [986c158b1a7d14b954360d5f1d1a0540, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\murugas3\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61512/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 986c158b1a7d14b954360d5f1d1a0540
+Mar 07, 2024 9:22:24 AM com.epam.healenium.processor.GetReferenceElementsProcessor execute
+WARNING: Trying to heal...
+Mar 07, 2024 9:22:24 AM com.epam.healenium.processor.HealingProcessor validate
+WARNING: New element locator have not been found. There is no reference data to selector in the database.
+Make sure that: 
+- There is selector on the page http://localhost:7878/healenium/selectors/ and type: single, if not then you have to run successful tests.
+- Your locator was changed on the page and not in code.

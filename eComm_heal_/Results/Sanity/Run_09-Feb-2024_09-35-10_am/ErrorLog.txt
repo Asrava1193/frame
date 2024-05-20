@@ -1,0 +1,3 @@
+Feb 09, 2024 9:37:20 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: tcp connect error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (os error 10060)
+Exception in thread "pool-1-thread-1" 
